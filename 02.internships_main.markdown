@@ -1,0 +1,264 @@
+---
+layout: page
+title: CS1900/1950
+permalink: /CS1900_1950/
+---
+## Table of Contents
+
+- [Presentation Score Leader Board](#presentation-score-leader-board)
+- [Your responsibilities](#your-responsibilities)
+- [Attendance](#attendance)
+- [Presentation organization](#presentation-organization)
+- [Final paper organization](#final-paper-organization)
+- [Peer review organization](#peer-review-organization)
+- [Progress report organization](#progress-report-organization)
+- [Important Links](#important-links)
+
+## Presentation Score Leader Board
+
+This table will be populated with (anonymous) peer review scores for each
+presentation, on each week when there is a presentation.  The top scorer
+will receive the [Best Capstone Speaker Award](#peer-review-organization).
+
+|Name|Content Score|Organization Score|Delivery Score|Overall Score|
+|---|---|---|---|---|
+| Todd Kocher | 4.67 | 4.79 | 4.87 | 4.78 |
+| Emma Chau | 4.62 | 4.65 | 4.71 | 4.66 |
+| Owen Spencer | 4.60 | 4.58 | 4.72 | 4.64 |
+|  | 4.56 | 4.60 | 4.54 | 4.57 |
+|  | 4.60 | 4.56 | 4.50 | 4.55 |
+|  | 4.55 | 4.45 | 4.63 | 4.54 |
+|  | 4.59 | 4.61 | 4.37 | 4.52 |
+|  | 4.53 | 4.45 | 4.57 | 4.52 |
+|  | 4.46 | 4.33 | 4.70 | 4.50 |
+|  | 4.40 | 4.51 | 4.58 | 4.50 |
+|  | 4.60 | 4.52 | 4.35 | 4.49 |
+|  | 4.50 | 4.50 | 4.46 | 4.49 |
+|  | 4.43 | 4.43 | 4.50 | 4.46 |
+|  | 4.55 | 4.53 | 4.28 | 4.45 |
+|  | 4.48 | 4.56 | 4.31 | 4.45 |
+|  | 4.45 | 4.35 | 4.51 | 4.44 |
+|  | 4.49 | 4.47 | 4.34 | 4.43 |
+|  | 4.27 | 4.46 | 4.54 | 4.42 |
+|  | 4.43 | 4.41 | 4.40 | 4.41 |
+|  | 4.49 | 4.02 | 4.72 | 4.41 |
+|  | 4.34 | 4.40 | 4.49 | 4.41 |
+|  | 4.38 | 4.42 | 4.42 | 4.41 |
+|  | 4.65 | 4.30 | 4.26 | 4.41 |
+|  | 4.62 | 4.42 | 4.17 | 4.40 |
+|  | 4.28 | 4.30 | 4.60 | 4.40 |
+|  | 4.44 | 4.29 | 4.44 | 4.39 |
+|  | 4.49 | 4.25 | 4.43 | 4.39 |
+|  | 4.33 | 4.42 | 4.42 | 4.39 |
+|  | 4.40 | 4.35 | 4.42 | 4.39 |
+|  | 4.37 | 4.46 | 4.33 | 4.38 |
+|  | 4.49 | 4.21 | 4.45 | 4.38 |
+|  | 4.40 | 4.40 | 4.35 | 4.38 |
+|  | 4.43 | 4.39 | 4.31 | 4.38 |
+|  | 4.34 | 4.36 | 4.42 | 4.37 |
+|  | 4.44 | 4.50 | 4.16 | 4.37 |
+|  | 4.30 | 4.47 | 4.33 | 4.36 |
+|  | 4.48 | 4.23 | 4.38 | 4.36 |
+|  | 4.25 | 4.27 | 4.56 | 4.36 |
+|  | 4.28 | 4.55 | 4.25 | 4.36 |
+|  | 4.51 | 4.15 | 4.38 | 4.35 |
+|  | 4.33 | 4.35 | 4.33 | 4.34 |
+|  | 4.37 | 4.43 | 4.20 | 4.33 |
+|  | 4.68 | 4.24 | 4.08 | 4.33 |
+|  | 4.11 | 4.32 | 4.55 | 4.33 |
+|  | 4.43 | 4.33 | 4.22 | 4.33 |
+|  | 4.39 | 4.15 | 4.43 | 4.33 |
+|  | 4.43 | 4.26 | 4.26 | 4.32 |
+|  | 4.25 | 4.23 | 4.46 | 4.31 |
+|  | 4.33 | 4.18 | 4.41 | 4.31 |
+|  | 4.29 | 4.27 | 4.35 | 4.30 |
+|  | 4.28 | 4.32 | 4.30 | 4.30 |
+|  | 4.32 | 4.36 | 4.19 | 4.29 |
+|  | 4.31 | 4.38 | 4.17 | 4.28 |
+|  | 4.29 | 4.60 | 3.96 | 4.28 |
+|  | 4.54 | 4.21 | 4.10 | 4.28 |
+|  | 4.44 | 4.36 | 4.04 | 4.28 |
+|  | 4.40 | 4.23 | 4.19 | 4.28 |
+|  | 4.31 | 4.18 | 4.33 | 4.27 |
+|  | 4.48 | 4.08 | 4.25 | 4.27 |
+|  | 4.49 | 4.52 | 3.79 | 4.27 |
+|  | 4.29 | 4.35 | 4.16 | 4.27 |
+|  | 4.33 | 4.18 | 4.27 | 4.26 |
+|  | 4.35 | 4.35 | 4.07 | 4.25 |
+|  | 4.29 | 4.44 | 4.02 | 4.25 |
+|  | 4.33 | 4.29 | 4.13 | 4.25 |
+|  | 4.37 | 4.16 | 4.18 | 4.24 |
+|  | 4.30 | 4.36 | 4.04 | 4.23 |
+|  | 4.33 | 4.14 | 4.22 | 4.23 |
+|  | 4.24 | 4.33 | 4.11 | 4.22 |
+|  | 4.24 | 4.36 | 4.02 | 4.21 |
+|  | 4.18 | 4.06 | 4.35 | 4.20 |
+|  | 4.35 | 4.33 | 3.91 | 4.20 |
+|  | 4.35 | 4.05 | 4.18 | 4.19 |
+|  | 4.22 | 4.29 | 4.04 | 4.18 |
+|  | 4.13 | 4.27 | 4.13 | 4.17 |
+|  | 4.35 | 3.90 | 4.23 | 4.16 |
+|  | 4.27 | 4.24 | 3.96 | 4.16 |
+|  | 4.13 | 4.35 | 3.98 | 4.15 |
+|  | 4.20 | 4.06 | 4.18 | 4.15 |
+|  | 4.27 | 4.12 | 4.06 | 4.15 |
+|  | 3.94 | 3.88 | 4.62 | 4.15 |
+|  | 4.26 | 4.22 | 3.92 | 4.13 |
+|  | 4.33 | 4.29 | 3.77 | 4.13 |
+|  | 4.19 | 4.42 | 3.75 | 4.12 |
+|  | 4.19 | 3.96 | 4.19 | 4.12 |
+|  | 4.17 | 3.91 | 4.21 | 4.10 |
+|  | 4.15 | 4.02 | 4.12 | 4.10 |
+|  | 4.16 | 4.28 | 3.84 | 4.09 |
+|  | 3.96 | 4.02 | 4.28 | 4.09 |
+|  | 4.09 | 4.19 | 3.94 | 4.08 |
+|  | 4.29 | 3.84 | 4.06 | 4.06 |
+|  | 4.04 | 4.11 | 4.02 | 4.06 |
+|  | 4.16 | 4.14 | 3.86 | 4.05 |
+|  | 4.02 | 4.02 | 4.08 | 4.04 |
+|  | 4.04 | 3.83 | 4.25 | 4.04 |
+|  | 4.35 | 3.79 | 3.98 | 4.04 |
+|  | 4.21 | 4.09 | 3.79 | 4.03 |
+|  | 4.13 | 4.02 | 3.83 | 3.99 |
+|  | 4.16 | 4.06 | 3.76 | 3.99 |
+|  | 4.30 | 4.21 | 3.45 | 3.99 |
+|  | 3.98 | 3.87 | 4.08 | 3.97 |
+|  | 4.10 | 4.15 | 3.67 | 3.97 |
+|  | 3.94 | 3.98 | 4.00 | 3.97 |
+|  | 4.19 | 3.92 | 3.69 | 3.94 |
+|  | 4.19 | 3.94 | 3.57 | 3.90 |
+|  | 3.65 | 3.94 | 4.10 | 3.90 |
+|  | 3.94 | 4.14 | 3.57 | 3.88 |
+|  | 4.02 | 3.92 | 3.63 | 3.86 |
+|  | 3.94 | 4.12 | 3.51 | 3.86 |
+|  | 3.85 | 3.94 | 3.77 | 3.85 |
+|  | 3.29 | 3.40 | 3.75 | 3.48 |
+|  | 3.15 | 3.12 | 3.15 | 3.14 |
+| Average | 4.29 | 4.24 | 4.19 | 4.24 |
+
+## Your responsibilities
+
+You must fulfill all of these responsibilities to get a satisfactory grade:
+
+1. Attend each class synchronously.  See [Attendance](#attendance).
+
+1. Give a presentation on your work.  See [Presentation organization](#presentation-organization).
+
+1. Write a final paper.  See [Final paper organization](#final-paper-organization).
+
+1. Fill out peer reviews for each presentation on TopHat.  See [Peer review organization](#peer-review-organization)
+
+1. (CS 1950 students only) send regular progress reports.  See [Progress report organization](#progress-report-organization).
+
+Failure to fulfill any of the above responsibilities may result in a "Not
+Complete" grade or a penalty on your letter grade.
+
+## Attendance
+
+* TopHat attendance will be taken for each class.
+
+* Attendance must occur in-person.  If you have extenuating circumstance
+  (such as a medical or family emergency), please let me know immediately
+and I will allow remote particiation or other means of participation.
+
+* **NOTE:** You may miss **2 classes** in the entire semester without an
+  extenuating circumstance.  3 or more missed classes will result in a
+failure.
+
+
+## Presentation organization
+
+* The presentation schedule has been finalized.  This is the official schedules for the two sections.
+  * [Presentation Schedule (1010 Section)]({{site.baseurl}}/internship_presentation_schedule_1010)
+  * [Presentation Schedule (1015 Section)]({{site.baseurl}}/internship_presentation_schedule_1015)
+
+* There will be typically 5 students presenting each day.  That means 50 / 5 =
+  10 minutes per student.  Those 10 minutes is going to be broken down as
+follows:
+  * **5 minutes**: Presentation talk
+    * Speaker presents slides pre-uploaded to TopHat using instructor's laptop.
+  * **3 minutes**: Audience Q & A
+  * **2 minutes**: Intermission
+    * Current speaker: Returns to seat.
+    * Next speaker: Immediately steps up to podium and starts preparing.
+    * Audience: Answer peer review questions on TopHat, due at midnight.
+  * Speakers: Please keep your own time with your cell phone.  Please
+    understand that I have to cut you off at 8 minutes with no warning due to
+the tight schedule.
+
+* Please review the [Lecture on Presentations]({{site.baseurl}}/internships/pdfs/lecture-on-presentations-internship.pdf) and the [Lecture on
+  Assertion Evidence Format]({{site.baseurl}}/internships/pdfs/lecture-on-assertion-evidence-format.pdf) before giving your presentation.  
+
+* Presenters must submit their presentation slides to the "Presentation Slides"
+  assignment on Canvas the day before, by **Thursday 9:00 PM**.  The slides
+will be uploaded to TopHat for the presentation next day.  The preferred format
+is PDF or Powerpoint.  Please note that simple Powerpoint animations like
+appearing and disappearing work on TopHat, but if you use more fancy animations
+they might not, so please let me know by email and I will give you further
+instructions.
+
+* Recordings of presenters are uploaded to Canvas Panopto within an hour of the
+  talk.  Watching a recording of your own talk can be an enlightening
+experience (you can trust me on this).
+
+* **NOTE:** If your presentation is not satisfactory, you will be asked to
+  present once more with your instructor one-on-one outside of class hours.
+This will be your last chance to give a satisfactory presentation.
+
+## Final paper organization
+
+* Write a 8 - 12 page paper on your internship experience.  For details, see the
+[Final Paper Instructions]({{site.baseurl}}/final_paper).  PDF format is
+preferred.  The paper is to be submitted to Canvas by **Friday midnight 
+of the week following your presentation**.
+
+## Peer review organization
+
+* For each presenter, there will be a folder in TopHat containing the slides
+  for the presentation and a few peer review questions.  The TopHat questions
+should be submitted to TopHat by **Friday midnight on the day of the
+presentation**.
+
+* Please do not peer review yourself (obviously).
+
+* Please review [tips for writing a good review]({{site.baseurl}}/review_tips).
+  Be specific about what you liked and disliked.
+
+* Peer review scores are anonymized when posted to TopHat --- only score
+  averages will be made available to the presenter.  Also the peer reviews
+**will not impact the presenter's grade**.  That means you can give honest
+feedback and scores without feeling guilty about lowering your friend's
+grade.  The purpose is to give constructive feedback so that your friend can
+improve.  
+
+* Your scores will also be used to decide the Best Capstone Speaker award,
+which is given to three students with the highest overall scores (the sum of
+the Content, Organization, and Delivery scores).  Cash prizes of $100, $50,
+and $20 will be given to the PittFund$Me accounts of meriting students, as
+well as certificates.
+
+## Progress report organization
+
+This section is only for CS 1950 students.
+
+* Please send regular progress reports to both your instructor (me) and
+  research advisor by email, before each weekly or bi-weekly meeting.  
+
+* The report allows your research advisor to get a summary update of your
+  progress before starting each meeting.  It also allows your instructor to
+monitor your progress and spot communication problems before they become a
+major issue.  
+
+* The progress reports are meant to help you, not burden you.  The main
+  consumer of the report is your research advisor, so you can use whatever
+format conveys the information best to your advisor.
+
+* Your advisor will "Approve" your report if your progress is satisfactory ---
+  otherwise feedback will be given.
+
+## Important Links
+
+* [Presentation Schedule (1010 Section)]({{site.baseurl}}/internship_presentation_schedule_1010)
+* [Presentation Schedule (1015 Section)]({{site.baseurl}}/internship_presentation_schedule_1015)
+* [Peer Review Tips]({{site.baseurl}}/review_tips)
+* [Final Paper Instructions]({{site.baseurl}}/final_paper)
