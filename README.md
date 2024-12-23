@@ -1,2 +1,2 @@
-# Capstone_Fall2024
-CS / CompBio Capstone Fall 2024 w/ Scott Jordan and Wonsun Ahn
+# Capstone_Spring2025
+CS / CompBio Capstone Spring 2025 w/ Scott Jordan and Wonsun Ahn

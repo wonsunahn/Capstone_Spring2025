@@ -22,119 +22,7 @@ will receive the [Best Capstone Speaker Award](#peer-review-organization).
 
 |Name|Content Score|Organization Score|Delivery Score|Overall Score|
 |---|---|---|---|---|
-| Todd Kocher | 4.67 | 4.79 | 4.87 | 4.78 |
-| Emma Chau | 4.62 | 4.65 | 4.71 | 4.66 |
-| Owen Spencer | 4.60 | 4.58 | 4.72 | 4.64 |
-|  | 4.56 | 4.60 | 4.54 | 4.57 |
-|  | 4.60 | 4.56 | 4.50 | 4.55 |
-|  | 4.55 | 4.45 | 4.63 | 4.54 |
-|  | 4.59 | 4.61 | 4.37 | 4.52 |
-|  | 4.53 | 4.45 | 4.57 | 4.52 |
-|  | 4.46 | 4.33 | 4.70 | 4.50 |
-|  | 4.40 | 4.51 | 4.58 | 4.50 |
-|  | 4.60 | 4.52 | 4.35 | 4.49 |
-|  | 4.50 | 4.50 | 4.46 | 4.49 |
-|  | 4.43 | 4.43 | 4.50 | 4.46 |
-|  | 4.55 | 4.53 | 4.28 | 4.45 |
-|  | 4.48 | 4.56 | 4.31 | 4.45 |
-|  | 4.45 | 4.35 | 4.51 | 4.44 |
-|  | 4.49 | 4.47 | 4.34 | 4.43 |
-|  | 4.27 | 4.46 | 4.54 | 4.42 |
-|  | 4.43 | 4.41 | 4.40 | 4.41 |
-|  | 4.49 | 4.02 | 4.72 | 4.41 |
-|  | 4.34 | 4.40 | 4.49 | 4.41 |
-|  | 4.38 | 4.42 | 4.42 | 4.41 |
-|  | 4.65 | 4.30 | 4.26 | 4.41 |
-|  | 4.62 | 4.42 | 4.17 | 4.40 |
-|  | 4.28 | 4.30 | 4.60 | 4.40 |
-|  | 4.44 | 4.29 | 4.44 | 4.39 |
-|  | 4.49 | 4.25 | 4.43 | 4.39 |
-|  | 4.33 | 4.42 | 4.42 | 4.39 |
-|  | 4.40 | 4.35 | 4.42 | 4.39 |
-|  | 4.37 | 4.46 | 4.33 | 4.38 |
-|  | 4.49 | 4.21 | 4.45 | 4.38 |
-|  | 4.40 | 4.40 | 4.35 | 4.38 |
-|  | 4.43 | 4.39 | 4.31 | 4.38 |
-|  | 4.34 | 4.36 | 4.42 | 4.37 |
-|  | 4.44 | 4.50 | 4.16 | 4.37 |
-|  | 4.30 | 4.47 | 4.33 | 4.36 |
-|  | 4.48 | 4.23 | 4.38 | 4.36 |
-|  | 4.25 | 4.27 | 4.56 | 4.36 |
-|  | 4.28 | 4.55 | 4.25 | 4.36 |
-|  | 4.51 | 4.15 | 4.38 | 4.35 |
-|  | 4.33 | 4.35 | 4.33 | 4.34 |
-|  | 4.37 | 4.43 | 4.20 | 4.33 |
-|  | 4.68 | 4.24 | 4.08 | 4.33 |
-|  | 4.11 | 4.32 | 4.55 | 4.33 |
-|  | 4.43 | 4.33 | 4.22 | 4.33 |
-|  | 4.39 | 4.15 | 4.43 | 4.33 |
-|  | 4.43 | 4.26 | 4.26 | 4.32 |
-|  | 4.25 | 4.23 | 4.46 | 4.31 |
-|  | 4.33 | 4.18 | 4.41 | 4.31 |
-|  | 4.29 | 4.27 | 4.35 | 4.30 |
-|  | 4.28 | 4.32 | 4.30 | 4.30 |
-|  | 4.32 | 4.36 | 4.19 | 4.29 |
-|  | 4.31 | 4.38 | 4.17 | 4.28 |
-|  | 4.29 | 4.60 | 3.96 | 4.28 |
-|  | 4.54 | 4.21 | 4.10 | 4.28 |
-|  | 4.44 | 4.36 | 4.04 | 4.28 |
-|  | 4.40 | 4.23 | 4.19 | 4.28 |
-|  | 4.31 | 4.18 | 4.33 | 4.27 |
-|  | 4.48 | 4.08 | 4.25 | 4.27 |
-|  | 4.49 | 4.52 | 3.79 | 4.27 |
-|  | 4.29 | 4.35 | 4.16 | 4.27 |
-|  | 4.33 | 4.18 | 4.27 | 4.26 |
-|  | 4.35 | 4.35 | 4.07 | 4.25 |
-|  | 4.29 | 4.44 | 4.02 | 4.25 |
-|  | 4.33 | 4.29 | 4.13 | 4.25 |
-|  | 4.37 | 4.16 | 4.18 | 4.24 |
-|  | 4.30 | 4.36 | 4.04 | 4.23 |
-|  | 4.33 | 4.14 | 4.22 | 4.23 |
-|  | 4.24 | 4.33 | 4.11 | 4.22 |
-|  | 4.24 | 4.36 | 4.02 | 4.21 |
-|  | 4.18 | 4.06 | 4.35 | 4.20 |
-|  | 4.35 | 4.33 | 3.91 | 4.20 |
-|  | 4.35 | 4.05 | 4.18 | 4.19 |
-|  | 4.22 | 4.29 | 4.04 | 4.18 |
-|  | 4.13 | 4.27 | 4.13 | 4.17 |
-|  | 4.35 | 3.90 | 4.23 | 4.16 |
-|  | 4.27 | 4.24 | 3.96 | 4.16 |
-|  | 4.13 | 4.35 | 3.98 | 4.15 |
-|  | 4.20 | 4.06 | 4.18 | 4.15 |
-|  | 4.27 | 4.12 | 4.06 | 4.15 |
-|  | 3.94 | 3.88 | 4.62 | 4.15 |
-|  | 4.26 | 4.22 | 3.92 | 4.13 |
-|  | 4.33 | 4.29 | 3.77 | 4.13 |
-|  | 4.19 | 4.42 | 3.75 | 4.12 |
-|  | 4.19 | 3.96 | 4.19 | 4.12 |
-|  | 4.17 | 3.91 | 4.21 | 4.10 |
-|  | 4.15 | 4.02 | 4.12 | 4.10 |
-|  | 4.16 | 4.28 | 3.84 | 4.09 |
-|  | 3.96 | 4.02 | 4.28 | 4.09 |
-|  | 4.09 | 4.19 | 3.94 | 4.08 |
-|  | 4.29 | 3.84 | 4.06 | 4.06 |
-|  | 4.04 | 4.11 | 4.02 | 4.06 |
-|  | 4.16 | 4.14 | 3.86 | 4.05 |
-|  | 4.02 | 4.02 | 4.08 | 4.04 |
-|  | 4.04 | 3.83 | 4.25 | 4.04 |
-|  | 4.35 | 3.79 | 3.98 | 4.04 |
-|  | 4.21 | 4.09 | 3.79 | 4.03 |
-|  | 4.13 | 4.02 | 3.83 | 3.99 |
-|  | 4.16 | 4.06 | 3.76 | 3.99 |
-|  | 4.30 | 4.21 | 3.45 | 3.99 |
-|  | 3.98 | 3.87 | 4.08 | 3.97 |
-|  | 4.10 | 4.15 | 3.67 | 3.97 |
-|  | 3.94 | 3.98 | 4.00 | 3.97 |
-|  | 4.19 | 3.92 | 3.69 | 3.94 |
-|  | 4.19 | 3.94 | 3.57 | 3.90 |
-|  | 3.65 | 3.94 | 4.10 | 3.90 |
-|  | 3.94 | 4.14 | 3.57 | 3.88 |
-|  | 4.02 | 3.92 | 3.63 | 3.86 |
-|  | 3.94 | 4.12 | 3.51 | 3.86 |
-|  | 3.85 | 3.94 | 3.77 | 3.85 |
-|  | 3.29 | 3.40 | 3.75 | 3.48 |
-|  | 3.15 | 3.12 | 3.15 | 3.14 |
-| Average | 4.29 | 4.24 | 4.19 | 4.24 |
+| Average | 0.00 | 0.00 | 0.00 | 0.00 |
 
 ## Your responsibilities
 
@@ -168,23 +56,20 @@ failure.
 
 ## Presentation organization
 
-* The presentation schedule has been finalized.  This is the official schedules for the two sections.
-  * [Presentation Schedule (1010 Section)]({{site.baseurl}}/internship_presentation_schedule_1010)
-  * [Presentation Schedule (1015 Section)]({{site.baseurl}}/internship_presentation_schedule_1015)
+* The presentation schedule will be finalized using a poll.  This is the official schedule as it stands now:
 
-* There will be typically 5 students presenting each day.  That means 50 / 5 =
-  10 minutes per student.  Those 10 minutes is going to be broken down as
+* There will be typically 2 students presenting each day.  That means 50 / 2 =
+  25 minutes per student.  Those 25 minutes is going to be broken down as
 follows:
-  * **5 minutes**: Presentation talk
+  * **10 minutes**: Presentation talk
     * Speaker presents slides pre-uploaded to TopHat using instructor's laptop.
-  * **3 minutes**: Audience Q & A
-  * **2 minutes**: Intermission
+  * **10 minutes**: Audience Q & A
+  * **5 minutes**: Intermission
     * Current speaker: Returns to seat.
-    * Next speaker: Immediately steps up to podium and starts preparing.
-    * Audience: Answer peer review questions on TopHat, due at midnight.
+    * Next speaker: Steps up to podium and starts preparing.
+    * Audience: Answer peer review questions on TopHat.
   * Speakers: Please keep your own time with your cell phone.  Please
-    understand that I have to cut you off at 8 minutes with no warning due to
-the tight schedule.
+    understand that I have to cut you off at 20 minutes if you do not finish by then.
 
 * Please review the [Lecture on Presentations]({{site.baseurl}}/internships/pdfs/lecture-on-presentations-internship.pdf) and the [Lecture on
   Assertion Evidence Format]({{site.baseurl}}/internships/pdfs/lecture-on-assertion-evidence-format.pdf) before giving your presentation.  
@@ -241,24 +126,21 @@ well as certificates.
 
 This section is only for CS 1950 students.
 
-* Please send regular progress reports to both your instructor (me) and
-  research advisor by email, before each weekly or bi-weekly meeting.  
-
-* The report allows your research advisor to get a summary update of your
-  progress before starting each meeting.  It also allows your instructor to
-monitor your progress and spot communication problems before they become a
-major issue.  
+* Please submit progress reports to the Canvas SCI Experiential Learning Hub on
+  the dates specified (it is on a bi-weekly cadence).  The report allows your
+research advisor to monitor your progress and spot communication problems
+before they become a major issue.
 
 * The progress reports are meant to help you, not burden you.  The main
   consumer of the report is your research advisor, so you can use whatever
-format conveys the information best to your advisor.
+format conveys the information best to your advisor.  Some professors prefer
+bullet points over flowing text.
 
 * Your advisor will "Approve" your report if your progress is satisfactory ---
   otherwise feedback will be given.
 
 ## Important Links
 
-* [Presentation Schedule (1010 Section)]({{site.baseurl}}/internship_presentation_schedule_1010)
-* [Presentation Schedule (1015 Section)]({{site.baseurl}}/internship_presentation_schedule_1015)
+* [Presentation Schedule]({{site.baseurl}}/internship_presentation_schedule)
 * [Peer Review Tips]({{site.baseurl}}/review_tips)
 * [Final Paper Instructions]({{site.baseurl}}/final_paper)
