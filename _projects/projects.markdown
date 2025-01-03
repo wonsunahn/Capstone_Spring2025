@@ -39,7 +39,7 @@ Technologies:
 
 Team Size: 3-4 students
 
-POC: Anastasia Mokhon (anastasia.mokhon@cgi.com)
+<!-- POC: Anastasia Mokhon (anastasia.mokhon@cgi.com) -->
 
 ### GenAI-powered Customer 360° View
 In modern businesses, understanding the customer holistically is critical for delivering personalized experiences, improving customer satisfaction, and driving business growth. However, customer data is often fragmented across multiple systems and departments, making it challenging to obtain a unified view. This project aims to develop a GenAI-powered solution that consolidates customer data from various sources to create a comprehensive Customer 360° View & insights/recommendations.
@@ -66,9 +66,9 @@ Technologies:
 
 Team Size: 3-4 students
 
-POC: Praveen Sone (praveen.sone@cgi.com)
+<!-- POC: Praveen Sone (praveen.sone@cgi.com) -->
 
-## Neuraville
+<!-- ## Neuraville
 Neuraville Inc. is a leading deep technology company headquartered in Pittsburgh, PA, specializing in artificial general intelligence (AGI) and robotics. Our mission is to make the development of safe, versatile, and functional AI systems accessible to everyone. We focus on creating AI that can process diverse sensory data and execute complex tasks requiring cognitive reasoning and decision-making.
 At Neuraville, we embrace a novel approach rooted in nature-inspired methodologies, drawing insights from neuroscience, genetics, and developmental biology. This allows us to develop AI systems that mirror the complexity and adaptability of natural intelligence. We believe in democratizing AI, empowering individuals to innovate, create, and profit from their ideas. Our vision is to see, in the near future, robots extending a helping hand to humans in need—whether due to aging, sickness, disability, or simply as assistants to take on the burden of repetitive and mundane tasks—allowing us to focus on what we value most.
 
@@ -142,9 +142,34 @@ Imitation learning is a powerful concept in artificial intelligence where an age
 
 Team Size: 3-4 students
 
-POC: Mohammad Nadji (nadji@neuraville.com)
+POC: Mohammad Nadji (nadji@neuraville.com) -->
 
 # Community and Other Organizations
+
+## Pittsburgh Street Medicine 
+### Street Medicine at Pitt “Prime Delivery” Service Web Application
+
+**Objective**: The objective of this capstone project is to develop a multimodal accessible website application for individuals served by Street Medicine at Pitt, including those at the Second Avenue Commons Clinic. The project's focus is to allow individuals to request/order necessities, including food, beverages, clothing, toiletries, basic medical supplies, and other supplies as needed, in addition to Street Medicine at Pitt’s weekly Wednesday evening “street rounds,” and make modifications as appropriate based on client feedback.
+
+**Background**: Street Medicine at Pitt is a student-run interdisciplinary organization dedicated to providing healthcare and social support to the rough-sleeping and unhoused communities in Pittsburgh. The organization is affiliated with the University of Pittsburgh School of Medicine, which recently established the Center for Street Medicine. Street Medicine at Pitt partners with the Second Avenue Commons Clinic, which provides shelter access, medical services, and engagement centers for adults experiencing homelessness in Pittsburgh.
+
+More information: https://www.streetmedatpitt.org/home
+
+**Project Goals**:
+
+Priority Areas:
+- Develop a website application that allows clients and Street Medicine at Pitt volunteers to submit supply requests/orders at any time
+- Develop a tracking system to accurately collect clients' location details for efficient delivery management
+- Develop a data tracking tool to track data such as the number of deliveries per week, the number of items requested per week, the number of individuals making requests per week, and the types of items requested
+- Attend 2-3 Wednesday weekly evening (6:30-9 PM) “street rounds” with the Street Medicine at Pitt team
+
+Secondary Areas:
+- Develop a traffic analysis tool to track the performance, moderation, and utility of the website application
+- Develop a scheduling software for Street Medicine at Pitt volunteers to schedule item deliveries
+
+Team Size: 4 students
+
+POC: Stella Ross (sfr12@pitt.edu) and Victoria Bacchi (vmb35@pitt.edu), please CC Dr. Anna Marie White (whitea3@upmc.edu), Dr. Max Hurwitz (mbh39@pitt.edu), and Sam Ding (ding.sam@medstudent.pitt.edu) on all communications.
 
 ## NOAA
 ### Machine Learning Based Predictive Modeling of Bacterial Pathogens with Stony Coral Tissue Loss Disease
@@ -157,17 +182,17 @@ Team Size: 2 students
 
 POC: Stephanie Rosales (Stephanie.Rosales@noaa.gov)
 
-## Pittsburgh Radio Rosary and Consecration
+<!-- ## Pittsburgh Radio Rosary and Consecration
 ### Pittsburgh Radio Rosary and Consecration Interactive Prayer Service
 The Pittsburgh Radio Rosary and Consecration (PITTRRC), Inc. provides a daily 7 pm scriptural Rosary and Sacred Heart prayer of Consecration radio broadcast on WKHB at 620 am and transmits on 92.3, 94.1, and 102.1 FM. This broadcast, a tradition for over 50 years in the Pittsburgh region, has been a source of spiritual connection and unity. In April 2022, PITTRRC assumed the ministry's rights and responsibility; now, we are ready to take it to new heights. PITTRRC created a new audio production in July 2022, and we want to enhance the ministry with a unique prayer-based interactive website and YouTube channel. This technological capability with the website will allow anyone to pray together or independently, educate, and communicate with one another in faith. This website would be unconventional by design, offer interactive prayer, and go beyond a standard text-only WordPress site.
 
-[More information]({{site.baseurl}}/projects/pdfs/PITTRRC_F2024.pdf)
+[More information]({{site.baseurl}}/projects/pdfs/PITTRRC_F2024.pdf) -->
 
-Team Size: 3-4 students
+<!-- Team Size: 3-4 students -->
 
-POC: John DePasquale (jbdepasquale@msn.com)
+<!-- POC: John DePasquale (jbdepasquale@msn.com) -->
 
-## Midwife Sally
+<!-- ## Midwife Sally
 ### Facebook educational tool for pregnant women in Ghana
 The [Midwife Sally organization](http://mymidwifesally.com/) offers pregnancy-related educational content to over 200,000 [followers](https://www.facebook.com/MidwifeSallygh/); mostly pregnant/trying to conceive women. Though the founder, Ruth Sally Kodam, is based in Ghana, her reach has now extended to Nigeria, Zambia, the UK and the United States. After taking some of Sally’s private classes, several women will post about how Sally’s course helped them during labor (see attached example). These women often leave a “digital trail” on Sally’s facebook page. 
 
@@ -179,9 +204,9 @@ We would like to:
 
 Team Size: 3 students
 
-POC: Martina Anto-Ocrah (MAA509@pitt.edu)
+POC: Martina Anto-Ocrah (MAA509@pitt.edu) -->
 
-## Brad Hays 
+<!-- ## Brad Hays 
 ### Wood Veneer Marquetry Artwork Generation
 I'm a woodworker in my spare time, and for a while now I've been tossing around the idea of how photo mosaic-creating software could be used to create next-level marquetry artwork. Marquetry is a millennia-old image-creating process whereby thin veneers of wood are meticulously shaped to interconnect with each other and, when laid down like strokes from a paintbrush, assemble into an image whose realism and authenticity depends on the quality of the movements within each veneer piece, as well as the skill of the artisan.  Given the various color movements that occur in high-grade veneers, one should be able to cut many hundreds (thousands actually) of small wood squares and use them as 'pixels,' if you will, to create a larger 'target' image.  And because I have about as much artistic ability as a doorknob, I need some help getting this done, which is where the idea of a software-aided process comes into play.   
 
@@ -193,11 +218,11 @@ Project Goals:
 
 Team Size: 4 students
 
-POC: Brad Hays (bradleyheathhays@gmail.com)
+POC: Brad Hays (bradleyheathhays@gmail.com) -->
 
 # Computer Science Faculty Projects
 ## Daniel Mosse 
-### Cutting-edge research in NLP
+<!-- ### Cutting-edge research in NLP
 The project will be focused on extracting course concepts from course presentations using a state-of-the-art tool called DS-MOCE. The students are expected to gain experience in the following:
 
 Annotation of Data for Model Training (this is the input to the NLP model) (25% effort)
@@ -209,7 +234,7 @@ The project will be supervised by Prof Daniel Mosse and PhD student Raja (RJ) Kr
 
 Team Size: 2 students
 
-POC: Daniel Mosse (mosse@pitt.edu)
+POC: Daniel Mosse (mosse@pitt.edu) -->
 
 ### StudentPaths and Concept Progression Maps Deployment
 Intro: StudentPaths and Concept Progression Maps are data analytics tools designed to assist undergraduate academic advisors by finding trends in historical student data, matching current students to those historical trends, and exposing finer granularity detail for grades.  These tasks allow advisors to talk more in-depth with their students about their undergraduate careers and course content.
@@ -237,31 +262,26 @@ POC: Nathan Ong (nro5@pitt.edu), Daniel Mosse (mosse@pitt.edu)
 ### Digital Literacy for Returning Community Members
 We are working with a non-profit organization that supports formerly incarcerated individuals  (who we call "returning community members") in their reentry journey. A part of the organization's program involves promoting digital literacy as a way to support empowered reentry. We have been working with the organization to develop a web application that they will use to provide digital literacy lessons.  We are seeking help in building a new feature to support envisioning future goals and connecting them with local resources.
 
-A key issue shared by the returning community members is that they struggle to figure out what resources are available near them. This is a structural problem. We do not have a well-curated list of local resources, and most of the lists that have been created are seldom verified. More critically, these resources are not presented in a way that informs people how they can use them for the goals that matter to them. To attend to this issue, we want to build a system that enables people to do the following:
-1. They draw out (using public images and videos) a vision of a successful future (say, 3 years or 5 years from now).
-2. They reflect on where they stand right now.
-3.  Following the reflection, they chart an action plan detailing what they may need to do to realize those goals.
-4. Using [findhelp.org](http://findhelp.org/), they connect to some of the local resources they can access as part of their action plan.
+A key issue shared by the returning community members is that they struggle to figure out what resources are available near them. This is a structural problem. We do not have a well-curated list of local resources, and most of the lists that have been created are seldom verified. More critically, these resources are not presented in a way that informs people how they can use them for the goals that matter to them. To attend to this issue, we want to build a system that enables people to establish goals and find resources that would assist them in meeting those goals.
 
-This project is new. We are beginning this project from scratch. This means that you will wireframe design ideas, iterate on them, and finally implement a prototype on React.
+We have a prototype of the tool here: https://clester31.github.io/PR-MindMap-React/. As you can see, we are working on supporting people to establish goals across eight different values. They can seek out role models to identify attributes and skills they would like to develop. There are issues in the prototype that we need to work on this semester. It includes the following:
+1. Support user accounts (login/logout).
+2. Integrate a way to support people to reflect on their strengths and add those in the vision board.
+3. Make the graph more interactive (e.g., easy dragging and dropping; change image size).
+4. Add a note taking feature to support reflection.
+5. Most critically, integrate resources from  findhelp.org such that they can connect some of the local resources that can support their goal(s).
 
-
-Technology requirements:
-
-Since the main website is built using React, students need to have some proficiency in Javascript and React. In addition, students will need to work on Figma so it will help if they already are familiar with or are willing to learn Figma.
-
+Technical skills required: Basic HTML/CSS/JS; React
 Team Size: 3-4 students
 
 POC: Aakash Gautam (AAKASH@pitt.edu)
 
 ## Luís Oliveira
-Note: Only one of these projects will be picked.
-
 ### Web-Configurable Bot for Discord
 This project involves the development of a custom Discord bot and its accompanying management website, aimed at enhancing course communications. The bot will be designed for configurable commands and integration with educational platforms such as Canvas, enabling tailored interactions for students. Key tasks include developing the bot, establishing a web-based interface for configuration and control, and creating specific commands that certain students can invoke based on course integration. This project presents a unique opportunity for students interested in web development, backend programming, and interactive system design, offering a practical application in a real-world educational setting.
  
 
-This work started last semester, so you will be working on an existing codebase. We will be working on some buggy behaviours, and enhancing its functionality!
+This work is on going from the last two semesters, so you will be working on an existing codebase. We will be working on some buggy behaviours, and enhancing its functionality!
   
 
 Skills Required: Web development experience. No specific languages or frameworks enforced; current work using Python backend and JavaScript frontend. We can change!
@@ -287,7 +307,7 @@ POC: Luís Oliveira (loliveira@pitt.edu)
 Skills:
 - Some knowledge in Flutter / Dart Desirable but not required
 
-Team Size: 3 students
+Team Size: 3-4 students
 
 POC: Nadine von Frankenberg (vonfrankenberg@pitt.edu)
 
@@ -297,3 +317,52 @@ POC: Nadine von Frankenberg (vonfrankenberg@pitt.edu)
 Team Size: 2 students
 
 POC: Nadine von Frankenberg (vonfrankenberg@pitt.edu)
+
+
+## Prasad Chalasani
+### Project: HackerMind --  Answer questions based on HackerNews
+
+Inspired by: https://hackersearch.net/
+
+Summary:
+
+HackerNews (HN) is a rich source of in-depth community discussions on a vast variety of topics, such as AI (LLMs), gadgets, technology, software, events, politics, etc.  The project aims to build a CLI tool leveraging LLMs (Large Language Models) to answer questions based on HN discussions, using the Langroid open-source LLM framework (the POC is the lead architect and developer).
+
+Background:
+
+HN discussions often containing diverse perspectives and go down rabbit-holes leading to useful links similar to or relevant to the main article being discussed. E.g. see this discussion about OpenAI's new O3 LLM: https://news.ycombinator.com/item?id=42473321
+
+When we want to learn about a topic , tapping into the "collective wisdom" of HN can help us understand:
+- what the latest thinking is about a topic
+- pro and con arguments/sentiments, praise, skepticism, etc 
+- other resources that can help get deeper knowledge and insights about the topic.
+
+Normally, to do this you would have to:
+- find the relevant HN articles,
+- read them in detail, 
+- identify main themes, 
+- find pro (praise) and con (skeptical) arguments,  
+- find useful articles/sites linked in the discussions, and 
+- synthesize a coherent report with several sections 
+
+Large Language Models (LLMs) offer the ability to automate the process leading to the final report, but you need a good programming framework to accomplish this; i.e. one that abstracts away low-level LLM API details and lets you work at a higher level. Langroid is an Open-source Agent-oriented Python framework that does just that -- You can define Agents, assign them tasks (in this case find HN articles, find main themes etc) and organize them into a workflow that accomplishes a task (in this case produce the final report). 
+
+In this project you will use Langroid to build a CLI (Command-line Interface) tool that takes a user's question and produces a final report containing the various elements outlined above.
+
+Requirements: 
+1. Strong Python coding skills (no need for raw ML skills as no model-training is involved)
+2. very strong interest in learning how to work with LLMs and build agent-oriented systems
+
+Have a look at langroid here: https://github.com/langroid/langroid and quick tour here: https://langroid.github.io/langroid/tutorials/langroid-tour/
+
+POC: Prasad Chalasani, Adjunct Professor, Pitt/SCI and CMU/Tepper. Co-founder of Langroid
+
+## Scott Jordan
+### Autonomous Driving from Human feedback for RC Cars
+I have two remote controllable RC cars with cameras and Nvidia Jetson GPUs. I would like to develop a system for them that can be used to teach the cars to drive around various areas and race each other. The software for these systems needs work is simple and I would like to build out tooling that will allow for it to easily record user controlled demonstrations, run the cars autonomously, and be able to give feedback to the car on how well it is doing. I also need functionality developed to do some learning from demonstration to create a model that can be used to drive the car autonomously. There is lots of room for innovation in this project and to do both AI work and software engineering. If you are interested in AI, autonomous systems, or edge devices this could be a great project for you.
+
+Team Size: 3-4 students
+
+POC: Scott Jordan (scott.jordan@pitt.edu)
+
+
