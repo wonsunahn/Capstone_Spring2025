@@ -37,7 +37,7 @@ Technologies:
 - Angular
 - MySQL
 
-Team Size: 3-4 students
+Team Size: 4-6 students
 
 <!-- POC: Anastasia Mokhon (anastasia.mokhon@cgi.com) -->
 
@@ -64,7 +64,7 @@ Technologies:
 - VS Code/Jupiter Notebook 
 - Angular
 
-Team Size: 3-4 students
+Team Size: 4-5 students
 
 <!-- POC: Praveen Sone (praveen.sone@cgi.com) -->
 
@@ -272,7 +272,7 @@ We have a prototype of the tool here: https://clester31.github.io/PR-MindMap-Rea
 5. Most critically, integrate resources from  findhelp.org such that they can connect some of the local resources that can support their goal(s).
 
 Technical skills required: Basic HTML/CSS/JS; React
-Team Size: 3-4 students
+Team Size: 3-5 students
 
 POC: Aakash Gautam (AAKASH@pitt.edu)
 
