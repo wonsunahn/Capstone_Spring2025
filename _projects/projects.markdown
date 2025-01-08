@@ -357,6 +357,33 @@ Have a look at langroid here: https://github.com/langroid/langroid and quick tou
 
 POC: Prasad Chalasani, Adjunct Professor, Pitt/SCI and CMU/Tepper. Co-founder of Langroid
 
+## Nils Murrugarra-Llerena
+### Understanding Psychological Test with visualizations
+**Motivation scenario**
+
+Psychologists understand human nature using psychological tests. For example, they may be interested in studying different personality traits using questionnaires, or study multiple intelligences in a similar fashion. These tests already have some output categories. We aim to find if there are relations between the human intuition output and a data-driven approach.
+
+**Objective**
+
+Develop a tool to visualize questions of relevant tests such as personality, multiple intelligences, and others. We aim to see if human intuitions correlate with data-driven visualizations.
+
+**Approach**
+
+Our approach will consist of the following steps: 
+- Look for psychological tests to evaluate different human aspects. For example, the test of Holland for personality (realistic, intellectual, social, conventional, entrepreneur, artistic); test of Gardner for multiple intelligences (linguistic, mathematical, spatial, interpersonal, intra personal, naturist, etc); among others.
+- Visualize questions for each of those tests: 
+    - Compute a Bert Embedding for each ot the questions
+    - Visualize questions per test with color using t-SNE or Umap
+    - Interpret visualization: how questions are grouped? Are they related to the outcomes of the tests? (e.g. personality or multiple intelligences)
+- Depending on results, we may need to train a new BERT model with psychological textbooks, and or apply metric learning for more accurate representations.
+
+**Experimental evaluation**
+We will compare different Textual embeddings (e.g. BERT) to compare questions from psychological tests. We expect that these embeddings capture similar questions under a certain outcome (e.g. personality or multiple intelligences).
+
+Time Size: 2 students
+
+POC: Nils Murrugarra-Llerena (nem177@pitt.edu)
+
 ## Scott Jordan
 ### Autonomous Driving from Human feedback for RC Cars
 I have two remote controllable RC cars with cameras and Nvidia Jetson GPUs. I would like to develop a system for them that can be used to teach the cars to drive around various areas and race each other. The software for these systems needs work is simple and I would like to build out tooling that will allow for it to easily record user controlled demonstrations, run the cars autonomously, and be able to give feedback to the car on how well it is doing. I also need functionality developed to do some learning from demonstration to create a model that can be used to drive the car autonomously. There is lots of room for innovation in this project and to do both AI work and software engineering. If you are interested in AI, autonomous systems, or edge devices this could be a great project for you.
