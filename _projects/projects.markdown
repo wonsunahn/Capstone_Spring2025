@@ -358,9 +358,24 @@ Our approach will consist of the following steps:
 **Experimental evaluation**
 We will compare different Textual embeddings (e.g. BERT) to compare questions from psychological tests. We expect that these embeddings capture similar questions under a certain outcome (e.g. personality or multiple intelligences).
 
-Time Size: 2 students
+Team Size: 2 students
 
 POC: Nils Murrugarra-Llerena (nem177@pitt.edu)
+
+## Jacob Biehl and the Surreality Lab
+### Cross-Platform Object Tracking and Streaming Package for Mixed Reality with Unity
+The Surreality Lab (https://surreality.pitt.edu) is a joint medical-computer science research lab studying mixed reality (MR)/spatial computing and its applications to surgery. Many applications of mixed reality, especially in the medical field, require accurate tracking of physical objects in the real world so that virtual artifacts can be aligned with them. Wireless low-latency video streaming is another component of many medical mixed reality applications. For instance, a surgeon may want to stream an endoscopic feed to view in mixed reality.
+
+The Surreality Lab is seeking a student team to develop a cross-platform Unity package that allows for near-real time (<300ms latency) object tracking (with or without fiducial markers) and low-latency (<=100ms) video streaming for MR applications on the Microsoft HoloLens 2 and Apple Vision Pro. So far, we have developed working code that allows for video streaming with MJPEG at around 100ms of latency on the Microsoft HoloLens 2. To port this code to the Apple Vision Pro, the libjpegturbo library will need to be compiled for visionOS (it has previously been compiled for iOS), and the native libraries will need to be changed in Unity. Possible approaches for object tracking include using the native object and image tracking libraries on the HoloLens and Vision Pro (ARMarkerManager and ARKit respectively) or building a native plugin using OpenCV (this technique will require use of the enterprise camera API on visionOS, which we have been granted access to).
+
+We can provide equipment (Microsoft HoloLens 2s, Apple Vision Pros, development machines) to assist with the development of the package. This project, if successful, would greatly improve the efficiency of developing MR software for the Surreality Lab and hopefully lead to future innovation in medical MR and medicine at large.
+ 
+**Skills Required**: Unity, C#, Swift, Linear Algebra, C/C++/Objective-C, possibly OpenCV/camera calibration
+
+Team Size: 3-4 students
+
+POC: Griffin J. Hurt (griffhurt@pitt.edu), Jacob Biehl (biehl@pitt.edu)
+
 
 ## Scott Jordan
 ### Autonomous Driving from Human feedback for RC Cars
