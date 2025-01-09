@@ -182,29 +182,21 @@ Team Size: 2 students
 
 POC: Stephanie Rosales (Stephanie.Rosales@noaa.gov)
 
-<!-- ## Pittsburgh Radio Rosary and Consecration
+## Pittsburgh Radio Rosary and Consecration
 ### Pittsburgh Radio Rosary and Consecration Interactive Prayer Service
-The Pittsburgh Radio Rosary and Consecration (PITTRRC), Inc. provides a daily 7 pm scriptural Rosary and Sacred Heart prayer of Consecration radio broadcast on WKHB at 620 am and transmits on 92.3, 94.1, and 102.1 FM. This broadcast, a tradition for over 50 years in the Pittsburgh region, has been a source of spiritual connection and unity. In April 2022, PITTRRC assumed the ministry's rights and responsibility; now, we are ready to take it to new heights. PITTRRC created a new audio production in July 2022, and we want to enhance the ministry with a unique prayer-based interactive website and YouTube channel. This technological capability with the website will allow anyone to pray together or independently, educate, and communicate with one another in faith. This website would be unconventional by design, offer interactive prayer, and go beyond a standard text-only WordPress site.
+The Pittsburgh Radio Rosary and Consecration, Inc. provides a daily 7 pm scriptural Rosary and Sacred Heart prayer of Consecration radio broadcast on WKHB at 620 am and transmit on 92.3, 94.1, and 102.1 FM. This broadcast, a tradition for over 50 years in the Pittsburgh region, has been a source of spiritual connection and unity.  In April 2022, PITTRRC assumed the ministry's rights and responsibility; now, we are ready to continue taking it to new heights.  A new audio production was created in July 2022.  In January 2023, development began with a corresponding website.  This website is unconventional in that it has four distinct pages: a live broadcast radio station, interactive prayers for the Rosary and Sacred Heart, Catholic resources, and a regional social media page for spiritual events and faithful expressions. The website is nearly complete, with just another revision update coming soon and some content pages added. www.pittrrc.org There has been a good response so far, with the site being ranked first for searching “Pittsburgh Rosary” with Bing but, unfortunately, on page 5 with Google, so there is still some work needed to get the website out to the masses, and I need your help.  
 
-[More information]({{site.baseurl}}/projects/pdfs/PITTRRC_F2024.pdf) -->
+This project involves developing an app from the website that functions on Android and iOS. I will also need to work on search engine optimization (SEO) and some programming ability to correct any possible website issues ensuring compatibility between the app and the site. 
+- APP Development for Android and iOS
+- SEO Development: Optimize the Search Engine Results Page (SERP), Find keyword indicators, determine all browsers available, and optimize each for maximum results. Use coding and software abilities to grow and provide analytics. 
+- With the incorporated SEO development, create and track a YouTube channel for PITTRRC that will have interactive prayers for the Rosary mysteries and the Sacred Heart.  
+- Ensure responsive design on the App and with the web browsers.
 
-<!-- Team Size: 3-4 students -->
+Various sprints will be involved, and you will need to function independently, as I have no background as a developer for each.  Must be willing to find the means to learn new abilities and consider this project as working in a real work experience.  Our first meeting will be in person one evening.  A weekly Zoom meeting will follow in the evening when it is convenient for the team to meet.  The meeting will review the week's accomplishments and goals for the next task sprint. 
 
-<!-- POC: John DePasquale (jbdepasquale@msn.com) -->
+Team Size: 2-3 students
 
-<!-- ## Midwife Sally
-### Facebook educational tool for pregnant women in Ghana
-The [Midwife Sally organization](http://mymidwifesally.com/) offers pregnancy-related educational content to over 200,000 [followers](https://www.facebook.com/MidwifeSallygh/); mostly pregnant/trying to conceive women. Though the founder, Ruth Sally Kodam, is based in Ghana, her reach has now extended to Nigeria, Zambia, the UK and the United States. After taking some of Sally’s private classes, several women will post about how Sally’s course helped them during labor (see attached example). These women often leave a “digital trail” on Sally’s facebook page. 
-
-We would like to: 
-1. quantify these testimonials using NLP or ML. So the references are usually “midwife sally, your class taught me….xyz”
-2. Create a midwife sally intake and outtake form, where participants can review the course and tell us the knowledge gained. The form, if designed to collect longitudinal data, will be great! The data can be analyzed in the future too, to evaluate maternal/infant/birth outcomes.
-3. Develop a "geo location" tool that pregnant clients can use to search for the nearest hospital and associated reviews. 
-
-
-Team Size: 3 students
-
-POC: Martina Anto-Ocrah (MAA509@pitt.edu) -->
+POC: John DePasquale (jbdepasquale@msn.com)
 
 <!-- ## Brad Hays 
 ### Wood Veneer Marquetry Artwork Generation
@@ -222,20 +214,6 @@ POC: Brad Hays (bradleyheathhays@gmail.com) -->
 
 # Computer Science Faculty Projects
 ## Daniel Mosse 
-<!-- ### Cutting-edge research in NLP
-The project will be focused on extracting course concepts from course presentations using a state-of-the-art tool called DS-MOCE. The students are expected to gain experience in the following:
-
-Annotation of Data for Model Training (this is the input to the NLP model) (25% effort)
-Read the documentation and papers describing DS-MOCE, a state-of-the-art Course Concept extraction tool, to understand how the tool works, what inputs are needed, how to run it, expected results, etc. (10% effort)
-Work with, modify as needed, install packages needed by the tool, and run the (research) code to benchmark its performance on a variety of inputs. (50% effort)
-Analyze the results, and draw conclusions. (15% effort)
-
-The project will be supervised by Prof Daniel Mosse and PhD student Raja (RJ) Krishnaswamy.
-
-Team Size: 2 students
-
-POC: Daniel Mosse (mosse@pitt.edu) -->
-
 ### StudentPaths and Concept Progression Maps Deployment
 Intro: StudentPaths and Concept Progression Maps are data analytics tools designed to assist undergraduate academic advisors by finding trends in historical student data, matching current students to those historical trends, and exposing finer granularity detail for grades.  These tasks allow advisors to talk more in-depth with their students about their undergraduate careers and course content.
 
