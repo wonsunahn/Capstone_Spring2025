@@ -6,57 +6,39 @@ permalink: final_paper
 
 ## FINAL PAPER
 
-This final paper is required for all students in the Capstone, including internship (CS 1900) and research (CS 1950) students.
+This final paper is required for all students in the Capstone, including
+internship (CS 1900) and research (CS 1950) students.
 
 ## FORMATTING REQUIREMENTS
 
-The paper must be 8 - 12 pages in length excluding the front matter (title page, table of contents, etc.), double-spaced, using a relatively standard font and point size (e.g., 12-point Times New Roman or Computer Modern).  Judicious use of charts, graphs, and/or illustrations is acceptable.  Margins should be of standard size.
+The paper must be 8 - 12 pages in length excluding the front matter (the title
+page and the table of contents), double-spaced, using a relatively standard
+font and point size (e.g., 12-point Times New Roman or Computer Modern).
+Judicious use of charts, graphs, and/or illustrations is encouraged.  Margins
+should be of standard size.
 
-Please ensure that your name as well as the name of the company / lab you worked on is at the header, along with your faculty sponsor (whoever signed your Faculty Learning Agreement) for CS 1900 students or your research PI for CS 1950 students.
+Here is a template that you can use: [https://etd.pitt.edu/learn-template](https://etd.pitt.edu/learn-template).
 
-If you want a template, here is one you are free to use: [https://etd.pitt.edu/learn-template](https://etd.pitt.edu/learn-template).
+There are example Word and Latex templates on that page.  Now you are not
+writing a thesis so you don't need most of the front matter, except for the
+title page and table of contents.  The title page can should have your name as
+well as the name of the company / lab you worked on is at the header, along
+with your faculty sponsor for CS 1900 students or your research PI for CS 1950
+students.  Of course, your table of contents will not have the same sections
+and subsections.  Examples of paper organizations are given in the next section.
 
-There are example Word and Latex templates on that page.  Now you are not writing a thesis so you don't need most of the front matter.  You can choose to have a title page and a table of contents (and you are encouraged to do so), but it is not going to count towards the number of pages.  The title page can have the header information aforementioned.  Of course, you will not have the same sections and subsections.  Examples of paper organizations are given below.
-
-## DETAILS
-
-The final paper should describe what you did for the capstone, and how you did it.  This will obviously vary dramatically based on if you did a research project or an internship.  Thus, it is difficult to give a broad-enough description of what is required for all of these.  Consider the following as a list of possible topics to discuss, not as a checklist.
-
-1. What programming language did you use?  Why?
-2. Were there things about the choice of language you liked?  Disliked?
-3. What frameworks did you use?
-4. How did you handle clarifying requirements?
-5. What technical problems did you face?
-6. How did you ensure quality code?
-7. What kind of testing did you do?
-8. What was the development process like?
-9. How did you communicate with other developers/testers/customers/etc?
-10. Did you have non-technical problems that you had to face?
-11. What were the biggest challenges you faced during the capstone?
-12. Were you able to take what you learned during the capstone and apply it to classes?  Conversely, were you able to use what you learned in class for the capstone project?
-13. How did you design the software you were writing?
-14. Did you present the project to customers?  How did you plan for it?
-15. What was day-to-day life like?
-16. Did you have a mentor?  What did they teach you?
-17. What was the worst part of the capstone project?
-18. How did you deal with ambiguity in requirements or direction?
-19. Did you learn any interesting skills during the capstone project?
-
-In general, what I would like to see is a good understanding of what you did, and what you learned, doing the work for the capstone.  If you worked on anything sensitive (e.g., for a government contractor or private data for a company), you do not need to refer to it in your write-up.  If there is any doubt, you may wish to show your supervisor the paper so that they may review it before turning it in.
+Regardless of what organization you use, your paper should be organized
+hierarchically into sections / subsections with corresponding section /
+subsection headers.  Each section should focus on the topic described in the
+section header.  A section should comprise of one or more paragraphs that are
+well-focused on the section topic.  **Papers without section and subsection
+headers will not be accepted**.
 
 ## Paper Organization
 
 At below are example organizations for either internships or research
 apprenticeships.  These are given to you just to give you an idea of
 what an organization looks like.  Please feel free to use your own organization.
-**Regardless of what organization you use, your paper should be organized
-hierarchically into sections / subsections with corresponding section /
-subsection headers.**  Each section should focus on the topic described in the
-section header.  A section should comprise of one or more paragraphs that
-are also well-focused.
-
-Inserting figures or graphs that describe your implementation or the
-outcomes is highly encouraged.  A picture is often worth a thousand words.
 
 ### Example organization for CS 1900 students
 
@@ -92,7 +74,7 @@ outcomes is highly encouraged.  A picture is often worth a thousand words.
         1. Business impact of the outcomes.
         
 1. Issues and reflections
-    1. Reflection on what I learned from the internship.  Were you able to fulfill all your learning goals?
+    1. Reflection on what I learned from the internship.  Were you able to fulfill all your learning goals?  Did the Pitt CS curriculum help you attain those goals?
     1. Issues in your organization that prevented you from reaching those goals (e.g. supervisor did not mentor you, there were organizational barriers, or employer changed goals when you got there).
 
 ### Example organization for CS 1950 students
@@ -123,6 +105,39 @@ outcomes is highly encouraged.  A picture is often worth a thousand words.
     1. Reflection on what I learned from the internship.  Did you learn something new and exciting?
     1. Issues that prevented you from reaching those goals (e.g. advisor did not mentor you, did not have time to learn background for research, or advisor set to high expectations).
     
+## Paper Content
+
+If you are unsure about what to put on the paper, consider answering some of
+the below questions.  Consider the following as a list of possible topics to
+discuss, not as a checklist.
+
+1. What programming language did you use?  Why?
+2. Were there things about the choice of language you liked?  Disliked?
+3. What frameworks did you use?
+4. How did you handle clarifying requirements?
+5. What technical problems did you face?
+6. How did you ensure quality code?
+7. What kind of testing did you do?
+8. What was the development process like?
+9. How did you communicate with other developers/testers/customers/etc?
+10. Did you have non-technical problems that you had to face?
+11. What were the biggest challenges you faced during the capstone?
+12. Were you able to take what you learned during the capstone and apply it to classes?  Conversely, were you able to use what you learned in class for the capstone project?
+13. How did you design the software you were writing?
+14. Did you present the project to customers?  How did you plan for it?
+15. What was day-to-day life like?
+16. Did you have a mentor?  What did they teach you?
+17. What was the worst part of the capstone project?
+18. How did you deal with ambiguity in requirements or direction?
+19. Did you learn any interesting skills during the capstone project?
+
+In general, what I would like to see is a good understanding of what you did
+and what you learned, through the experience.  If you worked on anything
+sensitive (e.g., for a government contractor or private data for a company),
+you do not need to refer to it in your write-up.  If there is any doubt, you
+may wish to show your supervisor the paper so that they may review it before
+turning it in.
+
 ## Other
 
 Please feel free to email me or come to office hours to discuss any questions you have.  
