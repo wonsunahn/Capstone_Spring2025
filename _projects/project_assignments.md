@@ -5,7 +5,7 @@ permalink: /project_assignments/
 
 # Project Assignments
 
-## CGI Member Management System 
+<!-- ## CGI Member Management System 
 - Ian Carrillo
 - Aleksandar Smith
 - Miles Hamilton
@@ -81,5 +81,5 @@ permalink: /project_assignments/
 ## TeachTech Toolkit 
 - David Happe	
 - Brandon McCoy
-- POC: Nadine von Frankenberg
+- POC: Nadine von Frankenberg -->
 

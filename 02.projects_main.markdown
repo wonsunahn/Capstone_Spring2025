@@ -13,12 +13,12 @@ permalink: /CS1980_1640/
 # Schedule
 [Check the schedule here]({{site.baseurl}}/projects_schedule).
 
-# Communication
+<!-- # Communication
 
 We will communicate via Slack, if you haven't joined ask your instructor for the link. This is the fastest way of getting clarification for your questions.
-Always ask questions in a public room, as this is the most effective way of getting help fast, e.g., if a classmate has the answer.
+Always ask questions in a public room, as this is the most effective way of getting help fast, e.g., if a classmate has the answer. -->
 
-
+# Course Information
 ## What are the expectations for the CS1640, CS1980 project?
 
 We expect the project to be doable in 12 weeks. We want projects that touch on at multiple areas of computer science (for example, databases, web programming, and operating systems). In the end, we hope the students create something that can be usable. The project must be designed so that within 2-3 weeks the students understand the problem and can begin to make progress towards the goal.  Students are typically taking a full-load of classes and dedicate about 10 hours per week (each team member). 
@@ -44,7 +44,8 @@ Unless dictated otherwise by the customer, the project will be developed using t
 
 We will consider every other class meeting the end of each sprint.  During this time, we will spend some time doing a retrospective in your groups - meeting for thirty minutes or so, in-person, to determine what went well with the last sprint and what could go better.  You will also come up with a plan for the next sprint.  Professor Scott Jordan will be available at the end of each lecture to discuss the path forward with each group.
 
-Since student schedules are often hard to reconcile, I recommend you use a chat application such as Discord to stay in touch with each other, even when you cannot meet in person. You may use the slack group created for the course to discuss your project. You can create a private channel for your team if you wish.
+Since student schedules are often hard to reconcile, I recommend you use a chat application such as Slack/Discord to stay in touch with each other, even when you cannot meet in person. 
+<!-- You may use the slack group created for the course to discuss your project. You can create a private channel for your team if you wish. -->
 
 As this is a capstone course, you are expected to be self-motivated and independent.  This may mean learning a new language, framework, architecture, etc.  Professional software engineers are often expected to learn these things independently, and you should be prepared to do so as well.  If you are unfamiliar with where to find training materials or information for a particular subject, you may discuss it with the instructor, but the onus is entirely on you to learn anything additional you need to know to complete the project.
 
@@ -145,7 +146,7 @@ There will be, at least, five deliverables for teams to complete during this cou
 
 
 ## Peer Evaluations
-Each sprint, you will be evaluated by your team members. The peer evaluation will be through a peer evaluation form filled out by your team mates for every sprint. You will also be filling out a peer evaluation form for each of your team members (and yourself). The purpose of this evaluation is to provide feedback to your team members on their performance and to provide feedback to the instructor on the performance of the team members.
+Each sprint, you will be evaluated by your team members. The peer evaluation will be through a peer evaluation form filled out by your team mates for every sprint. You will also be filling out a peer evaluation form for each of your team members. The purpose of this evaluation is to provide feedback to your team members on their performance and to provide feedback to the instructor on the performance of the team members.
 
 The student’s peer evaluation grade is the average of the numbers assigned by their teammates. A student who did not fill out a Peer Evaluation Form for a given sprint will receive a ZERO score for the same sprint.
 
