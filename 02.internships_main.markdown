@@ -61,10 +61,10 @@ failure.
 * There will be typically 2 students presenting each day.  That means 50 / 2 =
   25 minutes per student.  Those 25 minutes is going to be broken down as
 follows:
-  * **10 minutes**: Presentation talk
+  * **15 minutes**: Presentation talk
     * Speaker presents slides pre-uploaded to TopHat using instructor's laptop.
-  * **10 minutes**: Audience Q & A
-  * **5 minutes**: Intermission
+  * **8 minutes**: Audience Q & A
+  * **2 minutes**: Intermission
     * Current speaker: Returns to seat.
     * Next speaker: Steps up to podium and starts preparing.
     * Audience: Answer peer review questions on TopHat.
