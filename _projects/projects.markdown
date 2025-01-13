@@ -4,15 +4,15 @@ permalink: /projects/
 ---
 
 # Capstone Project List
-Below is a list of the projects for the Fall 2024 semester. 
+Below is a list of the projects for the Spring 2025 semester. 
 
 # Industry Capstone Projects
 
 ## CGI 
 **Will require signing an NDA/IP release**
 
-### CGI Member Management System
-CGI members work on different projects for clients. As a project approaches conclusion there is a period where members are seeking their next project. Currently, members who are seeking their next project receive via emails and gain access to an Excel spreadsheet that is updated daily with project opportunities.  This excel contains numerous columns (26) on all the details of the opening. The member then sorts through the positions to find something that fits their qualifications and desires. Members then send an email to the Workforce Manager of a list of openings they are interested in with some of the necessary data to apply for the opening, along with some other documents with required information about the member. The Workforce Manager relays this information to the hiring managers of that opening to onboard the member. During this entire process, CGI members have a Member Manager who can also assist members with finding and applying to open positions. 
+### CGI Web Application
+CGI members work on different projects for clients. As a project approaches conclusion there is a period where members are seeking their next project. Currently, members who are seeking their next project receive via emails and gain access to an Excel spreadsheet that is updated daily with project opportunities. This excel contains numerous columns (26) on all the details of the opening. The member then sorts through the positions to find something that fits their qualifications and desires. Members then send an email to the Workforce Manager of a list of openings they are interested in with some of the necessary data to apply for the opening, along with some other documents with required information about the member. The Workforce Manager relays this information to the hiring managers of that opening to onboard the member. During this entire process, CGI members have a Member Manager who can also assist members with finding and applying to open positions. 
 
 The goal of this project is to develop a web application to streamline this process. The application will contain the data from the Excel spreadsheet that members can see and look for openings that match their role and qualifications. Members can apply for the role directly from the web application, and the Workforce Manager can see the candidates and who have applied for the opening to send to hiring managers. Member Managers will also have a view of the web application to be able to assist members with finding openings.
 
@@ -24,7 +24,7 @@ Identified Personas:
 
 Outcome for Students: 
 - Learning SDLC while using Agile Methodologies 
-    - Utilizing 2-week sprints and introductions to agile ceremonies 
+- Utilizing 2-week sprints and introductions to agile ceremonies 
 - Using project management software to track progress of work through the semester 
 - Implementing business logic for Applications to job openings
 - Separating application flows depending on user access
@@ -37,9 +37,10 @@ Technologies:
 - Angular
 - MySQL
 
+
 Team Size: 4-6 students
 
-<!-- POC: Anastasia Mokhon (anastasia.mokhon@cgi.com) -->
+POC: Anastasia Mokhon (anastasia.mokhon@cgi.com)
 
 ### GenAI-powered Customer 360° View
 In modern businesses, understanding the customer holistically is critical for delivering personalized experiences, improving customer satisfaction, and driving business growth. However, customer data is often fragmented across multiple systems and departments, making it challenging to obtain a unified view. This project aims to develop a GenAI-powered solution that consolidates customer data from various sources to create a comprehensive Customer 360° View & insights/recommendations.
@@ -68,81 +69,265 @@ Team Size: 4-5 students
 
 <!-- POC: Praveen Sone (praveen.sone@cgi.com) -->
 
-<!-- ## Neuraville
-Neuraville Inc. is a leading deep technology company headquartered in Pittsburgh, PA, specializing in artificial general intelligence (AGI) and robotics. Our mission is to make the development of safe, versatile, and functional AI systems accessible to everyone. We focus on creating AI that can process diverse sensory data and execute complex tasks requiring cognitive reasoning and decision-making.
-At Neuraville, we embrace a novel approach rooted in nature-inspired methodologies, drawing insights from neuroscience, genetics, and developmental biology. This allows us to develop AI systems that mirror the complexity and adaptability of natural intelligence. We believe in democratizing AI, empowering individuals to innovate, create, and profit from their ideas. Our vision is to see, in the near future, robots extending a helping hand to humans in need—whether due to aging, sickness, disability, or simply as assistants to take on the burden of repetitive and mundane tasks—allowing us to focus on what we value most.
+## Neuraville
+### Developing a FEAGI Connector for CARLA
+The objective of this project is to develop a Python-based connector that integrates the CARLA simulator with FEAGI. The connector will enable the bidirectional exchange of data, allowing sensory information from a simulated vehicle in CARLA to be passed to FEAGI and motor commands from FEAGI to be relayed back to CARLA. This integration will establish a foundational framework for future development of neuromorphic autonomous vehicle solutions.
 
-Each project revolves around our open-source platform, [FEAGI](https://github.com/feagi/feagi) or the Framework for Evolutionary Artificial General Intelligence. It is a groundbreaking platform that enables the creation of brain-inspired neural circuits. Our engineering team will be on hand to offer support throughout the course of these projects.
+Key Features and Deliverables:
+1. Data Integration:
+    - **Sensory Data Transmission**: Extract sensor data from CARLA (e.g., camera feeds, LiDAR, vehicle state information) and format it for FEAGI’s input modules.
+    - **Motor Command Handling**: Receive motor commands (e.g., throttle, brake, steering) from FEAGI and translate them into CARLA-compatible vehicle controls.
+2. Communication Framework:
+    - Establish a bi-directional communication channel between CARLA and FEAGI using a suitable protocol (e.g., websocket, or ZMQ).
 
-Importantly, all projects are fully open-source, so students are not required to sign NDAs or any IP ownership agreements. This allows them the freedom to publish their work and potentially continue contributing to the project thereafter.
+    - Implement message serialization and parsing to ensure seamless data exchange.
+3. Testing and Validation:
+    - Develop a basic test scenario in CARLA where sensory data is transmitted to FEAGI, and simple motor commands (e.g., forward, stop, turn) from FEAGI are applied to the simulated vehicle.
+    - Validate that the connector supports real-time interaction between CARLA and FEAGI.
 
-### Integrating MuJoCo Physics Simulator with FEAGI for Real-Time Neuromorphic Control of Simulated Robots
-Objective:
+**Background**:
+CARLA is an open-source simulator specifically designed for autonomous driving research, providing realistic urban environments, diverse vehicle models, and rich sensor data. FEAGI is an open-source neuromorphic AI platform designed to emulate brain-inspired control systems using spiking neural networks.
 
-The primary objective of this project is to develop an integration between MuJoCo and FEAGI to demonstrate simple neuromorphic control of a simulated humanoid, focusing on maintaining its balance. As a stretch goal, implementing a walking mechanism will also be considered. This project involves developing a Python module that will interface with both MuJoCo’s Python SDK to interact with the simulated robot and FEAGI’s SDK and API to connect with the FEAGI platform. Sensory information will be captured from the simulator via the MuJoCo SDK, translated into neuronal activities using existing FEAGI modules, and transmitted to FEAGI. Additionally, motor commands generated by FEAGI will be converted into corresponding actions and sent to MuJoCo to control the simulated model. To demonstrate the functionality, a basic neural pathway will be created within the FEAGI platform to stabilize the model in an upright position. This pathway can later be extended to enable walking.
+This project focuses on building the infrastructure to enable CARLA to act as the embodiment (sensory input and motor output system) while FEAGI functions as the "brain." The connector will serve as the foundation for developing more complex autonomous neuromorphic solutions in future projects.
 
+**Scope**:
+This project is intentionally limited to establishing a functional connection between CARLA and FEAGI, focusing solely on:
 
-Background:
-MuJoCo (Multi-Joint dynamics with Contact) is a powerful and widely-used physics simulator known for its ability to accurately model the dynamics of rigid bodies, making it ideal for robotics research. FEAGI, on the other hand, is an open-source framework designed to simulate artificial brains modeled after the human brain's structure and function. By integrating these two systems, this project aims to create a platform where neuromorphic AI can be tested and developed in realistic simulated environments, bridging the gap between brain-inspired AI research and practical robotics applications.
+1. Extracting sensory data from CARLA.
+2. Sending this data to FEAGI.
+3. Receiving motor commands from FEAGI.
+4. Applying these commands to the CARLA simulation.
 
-Team Size: 3-4 students
+Advanced features such as neural pathway development, autonomous behaviors, and complex scenarios will be out of scope for this phase.
 
-POC: Mohammad Nadji (nadji@neuraville.com)
+**Technical Stack**:
+- Programming Language: Python.
+- APIs and Protocols: CARLA API, FEAGI SDK, websocket and ZMQ for communication.
 
-### Integrating FEAGI with Webots for Advanced Neuromorphic Robot Simulations
+**Deliverables**:
+1. A Python-based connector that links CARLA and FEAGI.
+2. Documentation outlining the setup process and API usage for the connector.
+3. A basic neural network demonstrating bidirectional data flow between CARLA and FEAGI. ( In the form of FEAGI genome)
+4. A technical blog as final report
 
-Objective:
-
-The primary objective of this project is to develop an integration between Webots and FEAGI to demonstrate simple neuromorphic control of a simulated robot arm, focusing on basic arm movements such as reaching and positioning. As a stretch goal, implementing more complex tasks, such as object manipulation, will also be considered. This project involves developing a Python module that will interface with both Webots' API to interact with the simulated robot arm and FEAGI’s SDK and API to connect with the FEAGI platform. Sensory information will be captured from the Webots simulation via its API, translated into neuronal activities using existing FEAGI modules, and transmitted to FEAGI. Additionally, motor commands generated by FEAGI will be converted into corresponding movements and sent to Webots to control the simulated robot arm. To demonstrate the functionality, a basic neural pathway will be created within the FEAGI platform to enable the robot arm to perform simple movements, such as reaching or positioning an object. This pathway can later be extended to handle more complex tasks, such as grasping, object manipulation, or executing a series of coordinated movements.
-
-Background:
-
-Webots is a versatile and widely-used open-source robot simulation platform that enables detailed modeling and control of robots in 3D environments. It supports various robot models and sensors, making it an essential tool for research, education, and development in robotics. Webots allows for realistic simulations of robotic systems, offering a safe and flexible environment to test and refine robotic behaviors before deploying them in the real world. This project integrates Webots with FEAGI, an open-source platform for simulating brain-inspired AI, to control a simulated robot arm using neuromorphic principles.
-
-Team Size: 3-4 students
-
-POC: Mohammad Nadji (nadji@neuraville.com)
-
-### Developing a simple 3D TurtleBot Simulation with Swappable Maze Scenes and FEAGI Playground Integration in Godot Game Engine
-
-Objective:
-
-The goal of this project is to design and develop a 3D simulation of a TurtleBot robot that can navigate in a maze to reach a target. The bot will be equipped with distance sensors enabling it to detect its distance from walls. Integration with FEAGI will enable the simulated bot to navigate the maze based on motor commands received from FEAGI as a direct result of sensory data collected by the bot. The maze scenes should be swappable so the bot can be trained in mazes with various difficulty levels. As a stretch goal, the team will develop an AI model in the form of a neural pathway in FEAGI that can solve the maze.
-
-Background:
-
-TurtleBot is a popular platform used in education and research for exploring robot navigation and control. FEAGI (Framework for Evolutionary Artificial General Intelligence) is an open-source project designed to simulate brain-inspired AI models. The Godot game engine is an open-source, cross-platform game development tool known for its flexibility and ease of use. It supports both 2D and 3D game development, making it a popular choice for indie developers and hobbyists.
+This connector will lay the groundwork for integrating neuromorphic computing with autonomous vehicle simulations, enabling researchers and developers to explore innovative AI-driven control systems in future projects.
 
 Team Size: 3-4 students
 
 POC: Mohammad Nadji (nadji@neuraville.com)
 
-### Developing an AI Model for Gesture Recognition Using FEAGI
 
-Objective:
+### Developing a FEAGI for Webots
+The objective of this project is to develop a Python-based connector to integrate the Webots robot simulation platform with FEAGI. The connector will enable bi-directional communication between Webots and FEAGI, allowing sensory information from simulated robots in Webots to be transmitted to FEAGI, and motor commands generated by FEAGI to control the robots in Webots. This integration will provide the foundation for future development of neuromorphic robotic solutions.
 
-The objective of this capstone project is to design, develop, and train an artificial intelligence (AI) model within the FEAGI (Framework for Evolutionary Artificial General Intelligence) platform that can recognize and interpret simple human hand gestures in real-time. The project will focus on integrating sensory data (such as visual input from cameras) and using FEAGI’s neuromorphic architecture to detect and classify a set of predefined gestures to control game characters. Game integration is outside the scope of this project and will be provided to the team. As a stretch goal of this project, the team can attempt to recognize more complex hand gestures such as the ones used in ASL (American Sign Language).
+**Key Features and Deliverables**:
 
-Background:
+1. Data Integration:
+    - Sensory Data Transmission: Collect sensor data from Webots (e.g., joint positions, proximity sensors, cameras) and convert it into neuronal activity for FEAGI.
+    - Motor Command Handling: Translate FEAGI-generated motor commands into Webots-compatible control signals (e.g., joint angles, velocity commands).
+2. Communication Framework:
+    - Implement a robust communication layer using websocket/ZMQ to facilitate real-time data exchange between Webots and FEAGI.
+    - Ensure low-latency and reliable bidirectional communication.
 
-Gesture recognition is a critical technology in human-computer interaction, enabling systems to interpret human motions as input. FEAGI, with its brain-inspired AI architecture, provides a unique platform to explore the neuromorphic approach to gesture recognition. By leveraging evolutionary learning techniques and the brain-inspired structure of FEAGI, this project will create a gesture recognition model capable of understanding human hand or body movements.
+3. **Testing and Validation**:
+    - Design a test scenario where a simulated robotic arm in Webots transmits sensory data to FEAGI, and simple motor commands (e.g., reach, move, rotate) from FEAGI control the arm.
+    - Validate basic functionality and establish real-time closed-loop control.
+
+**Background**:
+Webots is an open-source robot simulation platform widely used for modeling and controlling robots in realistic 3D environments. It supports a diverse range of robot models and sensors, making it ideal for robotics research and education.
+
+FEAGI is an open-source neuromorphic AI platform designed to simulate spiking neural networks for controlling embodied systems. Integrating Webots with FEAGI will enable researchers and developers to explore neuromorphic control principles in a highly customizable and realistic simulation environment.
+
+This project focuses on building the foundational framework for interfacing Webots with FEAGI, creating opportunities for future exploration of neuromorphic robotic behaviors.
+
+**Technical Stack**:
+- Programming Language: Python.
+- APIs and Protocols: Webots API, FEAGI SDK, websockets, ZMQ
+
+**Deliverables**:
+1. A Python-based connector linking Webots and FEAGI.
+Documentation detailing setup, configuration, and usage of the connector.
+2. A basic neural network demonstrating bidirectional data flow between Webots and FEAGI. ( In the form of FEAGI genome)
+3. A technical blog as final report
+
+**Impact**:
+This project will establish a foundational integration between Webots and FEAGI, enabling neuromorphic AI to control simulated robots in a realistic environment. The connector will serve as a valuable tool for exploring biologically inspired control systems and advancing robotics research.
 
 Team Size: 3-4 students
 
 POC: Mohammad Nadji (nadji@neuraville.com)
 
-### Developing a Neuromorphic Model for Imitation Learning Using FEAGI
-Objective:
+### Developing a FEAGI for Genesis
+The objective of this project is to develop a Python-based connector that integrates the Genesis framework with FEAGI. The connector will establish bi-directional communication between Genesis and FEAGI, allowing sensory data from Genesis environments to be processed by FEAGI’s spiking neural networks and motor commands generated by FEAGI to control virtual agents in Genesis. This foundational integration will enable future exploration of neuromorphic approaches to embodied AI systems.
 
-The objective of this capstone project is to design and develop a neuromorphic AI model using a deep Spiking Neural Network within the FEAGI platform to perform imitation learning. The focus will be on creating a brain-inspired model capable of observing and replicating actions performed by a human or a human-controlled game character and associating these actions with the embodiment connected to the model. The successful model will reliably imitate simple directional movements and effectively use these movements to learn how to play a 2D game leveraging Hebbian learning. 
+Key Features and Deliverables:
+1. Data Integration:
+    - Sensory Data Transmission: Extract sensory inputs (e.g., visual, tactile, and proprioceptive data) from Genesis environments and convert them into FEAGI-compatible neuronal activity.
+    - Motor Command Handling: Translate FEAGI-generated motor commands into Genesis-compatible actions to control virtual agents.
 
-Background:
+2. Communication Framework:
+    - Establish a bi-directional communication channel using websocket to facilitate data exchange between Genesis and FEAGI.
+    - Ensure real-time interaction with minimal latency for smooth control and feedback loops.
 
-Imitation learning is a powerful concept in artificial intelligence where an agent learns to perform tasks by observing the behavior of another agent or human. This method is particularly effective in scenarios where explicit programming is challenging or impractical. Neuromorphic computing, which mimics the structure and function of biological neural networks, offers a promising approach to developing AI systems that can naturally learn and adapt through imitation. FEAGI provides a flexible and scalable platform for implementing these neuromorphic models.
+3. Testing and Validation:
+    - Create a basic test scenario in Genesis where an agent navigates an environment or interacts with objects based on FEAGI-driven commands.
+    - Validate the integration through successful data exchange and agent control in the simulation.
+
+**Background**:
+Genesis is an open-source framework designed for embodied AI research, supporting highly detailed virtual environments, modular agent architectures, and realistic physics simulations.
+
+FEAGI is an open-source neuromorphic AI platform focused on emulating brain-inspired control systems through spiking neural networks. Integrating Genesis with FEAGI will enable researchers and developers to explore the potential of neuromorphic control in dynamic and diverse virtual environments, paving the way for advanced embodied AI systems.
+
+**Technical Stack**:
+- Programming Language: Python.
+- APIs and Protocols: Genesis API, FEAGI SDK, websocket, ZMQ.
+
+**Deliverables**:
+1. A Python-based connector facilitating data exchange between Genesis and FEAGI.
+2. Documentation outlining setup, configuration, and usage of the connector.
+3. A basic neural network demonstrating bidirectional data flow between Genesis and FEAGI. ( In the form of FEAGI genome)
+4. A technical blog as final report
+
+**Impact**:
+This project will enable the integration of Genesis with FEAGI, combining the strengths of Genesis' virtual simulation capabilities and FEAGI’s neuromorphic AI. The connector will serve as a foundational tool for embodied AI research, offering a platform to study spiking neural network-driven control in realistic and dynamic virtual environments.
 
 Team Size: 3-4 students
 
-POC: Mohammad Nadji (nadji@neuraville.com) -->
+POC: Mohammad Nadji (nadji@neuraville.com)
+
+### Developing a FEAGI Connector for Blender to enable Neuromorphic Control of 3D Models
+The goal of this project is to create a Python-based connector that integrates Blender with FEAGI, allowing FEAGI’s neuromorphic AI to control and animate 3D models in Blender. This integration will enable spiking neural networks to drive real-time animations, simulate sensory feedback, and perform complex behaviors such as navigation, manipulation, or interaction with the 3D environment.
+
+The project will include:
+1. Data Exchange Mechanism:
+
+    - Develop a bi-directional communication channel between Blender and FEAGI using websocket.
+    - Transmit sensory data (e.g., collisions, proximity readings, camera views) from Blender to FEAGI.
+    - Receive motor commands from FEAGI and apply them to control object transformations, armatures, or animations in Blender.
+
+2. Mapping and Configuration:
+    - Create a mapping system to associate FEAGI's neuron groups with Blender's model attributes (e.g., joints, bones, or other animatable properties).
+
+3. Real-Time Control:
+    - Implement real-time updates to reflect FEAGI's outputs in Blender’s viewport, including object movements and animations.
+    - Support real-time physics-driven behaviors influenced by FEAGI.
+
+**Background**:
+Blender is a powerful open-source tool for 3D modeling, animation, and simulation, equipped with a comprehensive Python API. 
+
+FEAGI is an open-source platform designed for brain-inspired AI using spiking neural networks. Combining these platforms can enable the creation of dynamic, lifelike 3D simulations where virtual characters and objects are controlled by biologically inspired neural networks. This connector will open new possibilities for interactive simulations, neuromorphic animation, and educational demonstrations of embodied AI.
+
+**Technical Stack**:
+- Programming Language: Python.
+- APIs and Protocols: Blender Python API, FEAGI SDK, and communication protocols (e.g., socket or MQTT).
+- Visualization Libraries: Leverage Blender’s native rendering and Python scripting for neural activity visualization.
+
+**Deliverables**:
+
+1. A Python script or add-on for Blender that serves as the FEAGI connector.
+2. Configuration templates for sensory and motor mappings.
+3. Documentation and tutorials for setting up and using the connector.
+4. Demonstration files showcasing integration with FEAGI for various use cases.
+
+By enabling FEAGI to control 3D models in Blender, this project will provide a powerful platform for developing and showcasing neuromorphic AI in visually engaging and interactive ways.
+
+Team Size: 3-4 students
+
+POC: Mohammad Nadji (nadji@neuraville.com)
+
+### Developing a Mobile Remote Controller App for FEAGI
+The objective of this project is to develop a mobile application that acts as a remote controller for FEAGI. The app, built using React Native and the Godot game engine, will enable the transmission of sensory data from the smartphone—such as accelerometer, gyroscope, and camera feeds as well as user inputs—to FEAGI for neuromorphic control of robots. The app will also include a user-friendly interface for configuring and tuning the input/output interfaces between the mobile device and FEAGI. This foundational project will enable the integration of smartphone sensors into neuromorphic control systems, with potential for future expansion into advanced features.
+
+**Key Features and Deliverables**:
+1. Data Integration:
+    - Sensory Data Transmission: Collect sensor data from the smartphone (e.g., accelerometer, gyroscope, and camera) and transmit it to FEAGI.
+
+2. User Interface:
+    - Design an intuitive React Native-based interface for users to interact with the application
+    - Include toggles and sliders for activating neurons in a given brain region
+    - Include toggles and sliders for adjusting visual input parameters
+
+3. Real-Time Processing and Visualization:
+    - Use Godot to preview real-time brain visualization (read-only)
+
+4. Communication Framework:
+    - Establish bi-directional communication using websocket for real-time data exchange between the app and FEAGI.
+
+5. Testing and Validation:
+    - Demonstrate the app’s ability to collect and transmit sensory data to FEAGI for controlling simple robotic systems.
+    - Demonstrate neuronal activities are displayed on the app.
+
+**Background**:
+React Native is a popular framework for cross-platform mobile application development, enabling a single codebase to work on both Android and iOS.
+
+Godot is an open-source game engine that excels in real-time rendering and simulation, offering dynamic visualization and feedback capabilities.
+
+FEAGI is an open-source neuromorphic AI platform that processes sensory data through spiking neural networks for controlling robots. Integrating smartphone sensors into FEAGI will empower users to experiment with neuromorphic control, bridging the gap between mobile technology and robotics.
+
+**Technical Stack**:
+- Programming Languages: JavaScript (React Native), GDScript (Godot), Python (FEAGI integration).
+- APIs and Protocols: React Native Sensor APIs, Godot Engine API, FEAGI SDK, websocket for communication.
+
+**Deliverables**:
+1. A cross-platform mobile app with real-time data exchange capabilities between the smartphone and FEAGI.
+Documentation outlining the app’s setup, configuration, and use.
+2. A basic demonstration showcasing neuromorphic control of a robot using smartphone sensors. ( In the form of FEAGI genome)
+3. A technical blog as final report
+
+**Impact**:
+This project will enable the integration of smartphone sensors with FEAGI, creating a portable and intuitive platform for neuromorphic experimentation. By leveraging the accessibility of mobile devices, researchers and developers will be empowered to explore new possibilities in neuromorphic robotics, combining mobility, sensory versatility, and spiking neural networks to push the boundaries of embodied AI systems.
+
+
+Team Size: 3-4 students
+
+POC: Mohammad Nadji (nadji@neuraville.com)
+
+### Developing an XML Parser and visualizer for Generating FEAGI Configuration Files
+The primary goal of this project is to create a Python script that parses Simulation Description Format (SDF) files from the Gazebo simulator and automatically generates configuration files for FEAGI. This integration will facilitate seamless communication between Gazebo (as the embodiment) and FEAGI (as the neuromorphic controller) by mapping the sensory data and motor control mechanisms described in the SDF file to FEAGI-compatible configurations.
+
+**Key Features and Deliverables**:
+
+1. SDF Parsing and Analysis:
+    - Extract critical elements from SDF files, including:
+        - Robot models: links, joints, and actuators.
+        - Sensor configurations: cameras, LiDAR, IMUs, etc.
+        - Environmental features.
+2. Mapping to FEAGI Configurations:
+    - Translate SDF elements into FEAGI neuron groups, sensory input channels, and motor outputs.
+    - Ensure compatibility with FEAGI’s sensory and motor interface specifications.
+3. Configuration File Generation:
+    - Create a FEAGI-compatible configuration file that:
+        - Defines sensory inputs for Gazebo’s simulated sensors.
+        - Maps motor commands to Gazebo’s actuators.
+4. Configuration visualization:
+    - Utilizing Gdot game engine’s node graph, visualize the configuration objects and enable user to edit mappings and properties. 
+5. Testing and Validation:
+    - Test the script using example SDF files to verify the accuracy of sensory-motor mappings and overall integration.
+
+**Background**:
+Gazebo’s Simulation Description Format (SDF) provides a standardized way to define robots, sensors, and environments in simulations. By parsing SDF files, developers can gain structured insights into simulation components.
+
+Godot is an open-source game engine that excels in real-time rendering and simulation, offering dynamic visualization and feedback capabilities.
+
+FEAGI is an open-source neuromorphic platform that uses spiking neural networks for brain-inspired AI. Integrating Gazebo with FEAGI requires a configuration layer that translates SDF-described attributes into FEAGI’s neuron-based framework for seamless interaction.
+
+**Technical Stack**:
+- Programming Languages: GDScript
+- APIs and Libraries: Gazebo SDF Parser libraries, FEAGI SDK, WebSocket and ZMQ communication protocols.
+
+**Deliverables**:
+1. A GD script capable of parsing SDF files and generating FEAGI configuration files.
+2. A very simple UI enabling user to edit the configuration file properties
+3. Documentation on usage, including examples and test cases.
+4. A demonstration of Gazebo-FEAGI integration using a sample SDF file. ( In the form of FEAGI genome and configuration file)
+5. A technical blog as final report
+
+**Impact**:
+This project simplifies the process of connecting Gazebo simulations with FEAGI, enabling researchers and developers to experiment with neuromorphic AI in realistic robotic simulations. Automating the generation of FEAGI configurations from SDF files reduces development time, minimizes errors, and promotes the use of neuromorphic computing for robotics research and innovation.
+
+Team Size: 3-4 students
+
+POC: Mohammad Nadji (nadji@neuraville.com)
 
 # Community and Other Organizations
 
@@ -198,23 +383,15 @@ Team Size: 2-3 students
 
 POC: John DePasquale (jbdepasquale@msn.com)
 
-<!-- ## Brad Hays 
-### Wood Veneer Marquetry Artwork Generation
-I'm a woodworker in my spare time, and for a while now I've been tossing around the idea of how photo mosaic-creating software could be used to create next-level marquetry artwork. Marquetry is a millennia-old image-creating process whereby thin veneers of wood are meticulously shaped to interconnect with each other and, when laid down like strokes from a paintbrush, assemble into an image whose realism and authenticity depends on the quality of the movements within each veneer piece, as well as the skill of the artisan.  Given the various color movements that occur in high-grade veneers, one should be able to cut many hundreds (thousands actually) of small wood squares and use them as 'pixels,' if you will, to create a larger 'target' image.  And because I have about as much artistic ability as a doorknob, I need some help getting this done, which is where the idea of a software-aided process comes into play.   
-
-Project Goals: 
-- Develop a software tool that can take a target image and a library of veneer images and generate a marquetry piece that can be cut out by a laser with fixed shapes and sizes.
-- Develop a software tool to assist in the assembly of the marquetry piece by indicating where each piece should be placed in the final image.
-- Develop a software tool that can generate arbitrary shapes based on a target need and library of available veneer.
-
-
-Team Size: 4 students
-
-POC: Brad Hays (bradleyheathhays@gmail.com) -->
-
 # Computer Science Faculty Projects
 ## Daniel Mosse 
-### StudentPaths and Concept Progression Maps Deployment
+### BeyondTranscripts, Predicting Student Grades to Help Advising
+Student grade prediction is a popular task for learning analytics, given grades are the traditional form of measuring student performance. In many previous machine learning models, previous grades and instructor features are considered as the main features.
+
+In this project, the team will understand the existing code and continue to develop, refine, and create new models to improve performance.  After understanding the code, every week the team will try and propose new features, study and analyze the results using graphs that are automatically generated, present them using PPT or similar, and discuss with mentors the performance and next week's experiments.
+
+Students interested in this project should have completed at least a machine learning or data science course.  If you have any questions about this project, please contact Nathan Ong at nro5@pitt.edu or Daniel Mosse at mosse@pitt.edu. Nathan is a post-doc at Pitt’s LRDC+UCTL, Daniel is a faculty member in CS. We will have weekly meetings for discussing results of past week, and setting goals for the following week; we will take turns taking notes (or use JIRA and github) to keep track of project progress.
+
 Intro: StudentPaths and Concept Progression Maps are data analytics tools designed to assist undergraduate academic advisors by finding trends in historical student data, matching current students to those historical trends, and exposing finer granularity detail for grades.  These tasks allow advisors to talk more in-depth with their students about their undergraduate careers and course content.
 
 Currently, an MVP (minimum viable product, not most valuable player) for both tools have been developed and they're ready for deployment; students will:
@@ -235,6 +412,64 @@ If you have any questions, please contact Nathan Ong (nro5@pitt.edu) or Daniel M
 Team Size: 2-3 students
 
 POC: Nathan Ong (nro5@pitt.edu), Daniel Mosse (mosse@pitt.edu)
+
+### Sensing the Built Environment: Data Collection and Analysis for Sennott Square 
+This project will create an easy-to-use and cost-conscious infrastructure to collect data in Pitt buildings.  We will collect data in Sennott Square, targeting the 5th and 6th floors, using temperature and humidity sensors, specifically the Govee Thermo-Hygrometer device.  The data collected will help Pitt’s Facilities Management (FM) improve building energy optimization and temperature/humidity comfort.  For example, FM has “occupied” and “unoccupied” schedules, with different temperature/humidity setpoints; we will detect these schedules and let them know. 
+
+Initial data collection revealed no significant temperature differences between weekends and weekdays, suggesting a lack of HVAC optimization based on occupancy or schedules. This project aims to expand upon these findings by conducting more extensive data collection in Sennott Square (which will serve as an exemplar for other buildings). 
+
+The student is expected to: 
+- Become familiar with the functionality of Govee sensors+hubs, the current initial deployment, and develop an understanding of designing a sensor communication network.  Technology used: Govee, Raspberry Pi, Bluetooth, and Wi-Fi. 
+- Design a data monitoring and collection plan to deploy a sensor network that collects representative data from various rooms. Show that the deployment has small error (<1%) throughout the data collection.  This process should be automated, that is, no human intervention aside from placing sensors in the right locations. 
+- Create a software infrastructure to export the data to a repository (perhaps reverse engineer the communication protocol), analyze the data (see next item), and produce daily summary reports, for example how much data was collected, alert users if number of samples is lower than expected (i.e., the system is not working as intended), etc. This process should be automated. 
+- Process and analyze the collected data to identify patterns and reverse engineer HVAC schedules (i.e., determine whether heating and cooling schedules are programmed based on seasonal variations, weekends, working days, or working hours). This process should be automated, that is, no human intervention aside from placing sensors in the right locations. 
+
+Team Size: 2 students 
+
+POC: Daniel Mosse (mosse@pitt.edu) and Ousmane Dieng (oud5@pitt.edu)
+
+### Occupancy Sensing and Data Collection in the Built Environment Using LoRa Networks 
+This project aims to **enhance and stabilize** the existing deployment of occupancy sensors in Sennott Square rooms using LoRa networks; we will also explore innovative solutions to collect accurate data on room occupancy and occupant count. The project will focus on addressing the issues currently observed in the existing system (a sensor platform built in house, not commercial) and extending the capability of the LoRa-based infrastructure to provide reliable occupancy data for building energy optimization and improved space utilization in Pitt buildings. 
+
+An initial deployment platform uses Passive Infrared (PIR) sensors for occupancy detection and is already in place in two rooms. However, challenges have been identified, such as inconsistent readings, communication stability, and potential inaccuracies in detecting occupancy patterns. Building on this foundation, this project will address these challenges, stabilize the system, and introduce improvements to achieve high accuracy and reliability in occupancy data collection. 
+ 
+The students are expected to: 
+1. Understand existing infrastructure: 
+    - Study the current deployment of PIR sensors and LoRa communication network. 
+
+    - Investigate the root causes of observed issues (such as inconsistent readings, communication instability, and sensor errors) through extensive experimentation and data analysis. 
+
+2. Stabilize the existing system:
+    - Develop solutions to address issues in sensor performance and communication stability. 
+
+    - Place the sensor where it reduces the observed issues. 
+
+    - Write code in the device to calibrate the sensors to improve accuracy and reliability. 
+
+3. Enhance occupancy data collection: 
+
+    - Propose and implement innovative sensing solutions to supplement PIR sensors for detecting occupancy and occupant count. Possible solutions could include integrating complementary sensor types (e.g., CO₂, ultrasonic, or camera-based systems) and/or creating an app (or a qualtrics survey/webpage) that collects the comfort level of the room occupants. 
+
+    - Explore methods to detect occupant activity (e.g., active, passive, or away states) using advanced data processing techniques, additional sensors, and/or thru the “app” in the previous item 
+
+4. Develop data analysis and automation: 
+    - Automate the data collection and processing pipeline, eliminating human intervention beyond deployment (except for handling hardware errors). 
+
+    - Analyze collected data to derive insights such as occupancy patterns and occupant count. 
+
+    - Correlate occupancy data with HVAC operation schedules (from a different project) to identify optimization opportunities. 
+
+5. Evaluate and demonstrate system performance: 
+    - Develop a plan to demonstrate that the improved system has small error (<1%) in occupancy detection and provides consistent, actionable data. 
+
+Technology used: 
+- Sensors (no previous knowledge needed): PIR sensors, LoRaWAN-compatible devices, and additional sensors for activity detection (as needed). 
+- Network infrastructure (no previous knowledge needed): LoRaWAN gateways, Raspberry Pi or similar for data aggregation. 
+- Data processing: Python for data analysis and visualization, IoT platforms for data integration. 
+
+Team Size: 2 students 
+
+POC: Daniel Mosse (mosse@pitt.edu) and Ousmane Dieng (oud5@pitt.edu)
 
 ## Aakash Gautam
 ### Digital Literacy for Returning Community Members
@@ -269,14 +504,91 @@ Team size: 3–4 students
 POC: Luís Oliveira (loliveira@pitt.edu)
 
 
-### RF-based Ranging for Relative Localization
-The focus of this project is to develop an application utilizing RF-based ranging technology for relative localization. The task involves working with Qorvo DWM3001CDK development kits, which are equipped with hardware capable of measuring distances based on wireless signals between devices. The primary challenge is to understand and utilize the manufacturer’s implementation examples to create a standalone application running on these boards. This application will not only measure distances between devices but also estimate their relative positions using a known technique for converting distances into positions.
+### Simulated Virtual GPS
+In this project we're going to simulate a GPS using a flying drone. The scenario I have in mind is a team of cooperating robots that move on the ground. They don't have GPS, but can measure the distance between them using RF techniques (special purpose hardware). In the air, one or more drones have GPS localization, and can measure the distance to the robots on the ground. Having all those measurements, I want to calculate the global coordinates of the robots using the distance between them and the drones; and the GPS localization of the drones. The whole application will be simulated and using a very popular middleware for robotic applications ROS 2.
 
-Skills Required: Comfort with C programming and an interest in embedded systems; prior experience in this area is beneficial but not required.
+
+Tools: 
+- ROS 2: Robot Application Middleware
+- Gazebo simulator
+
+Knowledge:
+- C++ preferred, Python also ok (sad).
+- Previous expecience with the tools being used is good, not required.
 
 Team size: 3–4 students
 
 POC: Luís Oliveira (loliveira@pitt.edu)
+
+### Programming a linux kernel module to control network traffic
+
+This project involves developing a Time Division Multiple Access (TDMA) network-traffic scheduler within the Linux kernel. You are taking a kernel module developed in a previous semester, and work on the configuration from user space. We'll build a simple demo application using it, and measure the overheads using extended Berkley Packet Filter. It's part of the project learn about eBPF and how to use it to instrument the Linux kernel calls.
+
+
+Prerequisite: Must have taken CS1550.
+
+Team size: 3–4 students
+
+POC: Luís Oliveira (loliveira@pitt.edu)
+
+### Interactive Web App 
+
+Using Angular to build an interactive application like logisim. You tool CS447, I want a similar tool on a web browser. The initial goal is the GUI design, create a set of logical gates, drag them around, connect them. The first couple of weeks of work will be focused on researching tools that can help with the implementation. No need to build everything from scratch. Having the tools, we'll create the basic gates, and the tooling to connect the circuits. Then we'll design ports and the creation of subcircuits. Once this is done, if there is enough time left, we'll look into the simulation of those circuits.
+
+
+Tools:
+- Angular and plugins from initial research.
+
+Languages:
+- Java/Typescript.
+
+Team size: 3–4 students
+
+POC: Luís Oliveira (loliveira@pitt.edu)
+
+## Alex Labrinidis
+### CEC Check-in Kiosk and Database
+ 
+The University of Pittsburgh has multiple Community Engagement Centers (CECs) and is looking for a technology solution to help them better understand community engagement with their programs. Towards this, they want to have a check-in “kiosk” at the entrance of the centers that will allow visitors to tap/scan their Pitt/CEC ID cards and pick the event they are coming to participate in (out of those happening that day). In addition to recording check-ins, the project should recognize visitors who come often and provide a web front-end for visualizing the check-in data to CEC staff.
+ 
+There are at least four different components to this project:
+1. Visitor-facing UI through a native app running on a tablet (currently considering iPad, so Swift) – there is already a reader that connects as a keyboard to read the IDs
+2. Backend database (PostgreSQL) and integration with Pitt databases (for example, to associate a name with the ID read)
+3. Web front-end for check-in data querying/visualizations (Python/Flask)
+4. Testing of UI and web front-end (Selenium)
+ 
+A very rudimentary prototype is already in place since the work started in the Fall 2024 term, but this is meant as a simple proof of concept. We are looking to deploy the project using the Heroku cloud platform but will probably migrate to Pitt servers sooner rather than later.
+ 
+Skills required for everybody:
+- experience with GitHub is necessary for all team members
+ 
+Skills required (not everybody will have all of these):
+- web development experience (Python/flask)
+- database development experience (PostgreSQL)
+- data visualization experience (Python viz libraries)
+- utilizing external APIs and parsing/generating JSON files
+ 
+Skills you will learn if you don’t already have (not everybody will need all of these):
+- UI design (Swift or Flutter)
+- UI testing (Selenium)
+- Cloud deployment (Heroku – this is the easiest of all)
+ 
+The specific technologies are not set in stone; I am open to suggestions, especially in the UI design/native app space.
+ 
+Team size: 3-4 students, depending on your role in the project, different skills will be needed.
+ 
+POC: Alex Labrinidis (labrinid@cs.pitt.edu)
+
+## Adam Lee and Prsaad Chalasani
+### AI Policy Assistant
+ 
+This Capstone Project aims to harness the power of generative AI to enhance the accessibility of university policies and guidelines. This project will focus on creating a unified platform where program and academic administrators, advisors, and students can easily navigate and comprehend the myriad regulations currently dispersed across University and School Catalogs, Office of the Provost guidelines, and formal University Policy documents. By leveraging AI tools like PittGPT or Langroid, the system will enable users to quickly answer fundamental questions about policies and academic program requirements, discover connections between related policies, and identify additional resources for deeper policy-related research. This initiative, suitable for a team of three students, aims to simplify the policy exploration process, making it more intuitive and user-friendly, ultimately improving compliance and knowledge dissemination.
+ 
+Students participating in this project will face several key responsibilities and challenges. They will need to collaborate with stakeholders to understand common inquiries and identify the most pertinent types of questions. Additionally, students must explore methods to detect ambiguities and resolve conflicts among multiple policies/guidelines that may provide differing information relevant to the same inquiry. Balancing the need to deliver complete and authoritative answers with the necessity of guiding users towards further reading within the source documentation will be crucial, particularly in situations where the relevant policies and guidelines are nuanced. By tackling these challenges, students will not only enhance their technical skills but also develop a deeper understanding of policy management and user-centered design.
+
+Team Size: 3 students
+
+POC: Adam Lee (adamlee@pitt.edu), Prasad Chalasani (pchalasani@pitt.edu)
 
 ## Nadine von Frankenberg
 ### Treefficiency 
