@@ -21,9 +21,9 @@ As always, keep up with the [University Academic Calendar][university-calendar] 
 | Feb 21    | Retrospective 2 <br>Sprint 3 begins   |
 | Feb 28   | No Class  |
 | Mar 7   |  No Class (Spring Break)|
-| Mar 114   |  [Presentation 3 on Presentations]({{site.baseurl}}/lectures/Capstone_Lecture3_Presentations.pdf) <br> Retrospective 3 <br> Midterm update due <br> Sprint 4 begins   |
-| Mar 21  | No Class    |
+| Mar 14   |  [Presentation 3 on Presentations]({{site.baseurl}}/lectures/Capstone_Lecture3_Presentations.pdf) <br> Retrospective 3 <br> Midterm update due <br> Sprint 4 begins   |
+| Mar 21  | Presentations    |
 | Mar 28  | Presentations <br> Retrospective 4 <br> Sprint 5 begins |
 | Apr 4   | Presentations  |
-| Apr 11  | <br> Retrospective 5 |
+| Apr 11  | Presentations <br> Retrospective 5 |
 | Apr 18  | Final report due, final project demo|
