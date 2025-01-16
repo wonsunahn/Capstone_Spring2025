@@ -8,6 +8,89 @@ Below is a list of the projects for the Spring 2025 semester.
 
 # Industry Capstone Projects
 
+## Wolfe
+### Integrating Generative AI Into the Software Development Life Cycle
+Integrating Generative AI into the Software Development Lifecycle (SDLC) enhances efficiency and accuracy and by consolidating data from all SDLC stages into a knowledge graph. Team to provide context for AI models using existing Wolfe tools (Jira, Confluence, etc.) and insightful analytics to identify anomalies and ensure optimal utilization of AI in the knowledge graph.
+
+**Leverage AI for Maintenance and Support Assistance**
+- Ticket / Issue Summarization
+- Real-Time Ticket Resolution Assistance
+- Real-Time Code Fix Suggestions
+- Issue -> Requirement -> Code Traceability
+
+**Impact**: 30%+ increase in productivity
+
+**Major Services**: AWS, Jira/Confluence, GitHub/Bitbucket, Graph Database, Terraform, AI (hosted)
+
+### Application Monitoring Dashboard
+Create a standard application monitoring dashboard solution that can be created automatically to visualize, monitor, and alert key functional for an eCommerce system. Leverage cloud technologies, 3rd party integration, and infrastructure-as-code tooling to make a flexible, customizable, re-useable monitoring and alerting framework. 
+
+**Impact**: 25%+ increase in monitoring efficiency; automated default dashboard
+
+**Major Services**: AWS, Terraform, Datadog, BGC site
+
+### Anomaly Detection System for Gift Card Package Weights
+**Objective**: Develop a system to detect anomalies and errors in package weights by comparing actual scale-reported weights with projected weights based on expected package contents. The goal is to enhance quality control and identify discrepancies in real time during production.
+
+**Scope**:
+- Analyze production and packaging data to calculate expected package weights based on gift card types, affixed items, and packaging materials.
+- Integrate scale-reported weights into the system for comparison.
+- Design and implement software that allows input of expected weight parameters and flags anomalies in real-time.
+- Connect the solution to Wolfe Companies’ production systems for automated data exchange and real-time detection.
+- Understand the different combinations of packaging and order types to accurately predict the weight of a given package.
+- Be hands on with the packaging to arrive at the correct values for expected weights.
+- Deliver a service-oriented architecture proposal for the anomaly detection system.
+
+**Impact**:
+This project will help Wolfe Companies improve operational efficiency and reduce errors in gift card packaging, ensuring higher accuracy in shipments and minimizing potential losses. It aligns with the company’s focus on precision in production and quality assurance.
+
+**Collaboration Details**:
+Wolfe Companies will provide access to production and packaging data, as well as guidance on industry-specific requirements. The project is expected to last one semester, with interdisciplinary teams in software engineering, data analysis, and systems integration preferred.
+
+**Additional Information**:
+Wolfe Companies operates a gift card printing facility where cards are packaged in various formats:
+- Cards can be affixed to trifold paper sheets or greeting cards.
+- Some cards include stickered labels.
+- Packaged cards are often shipped in bulk, with some being enclosed in envelopes and others shipped without.
+- Bulk shipments are weighed by FedEx upon pickup, and this weight is used to validate packaging accuracy.
+
+Understanding these variables will be critical to building a system that accounts for different carrier types, packaging materials, and bulk shipment methods to ensure accurate anomaly detection.
+
+
+
+### eCommerce Machine-Learning Fraud Tool  
+  
+Developing a Machine Learning-Based Fraud Detection Tool for E-Commerce Transactions  
+  
+  
+**Objective**: The primary objective of this project is to design and implement a scalable, accurate, and efficient fraud detection tool tailored for e-commerce platforms, specifically for the gift card industry. The tool should leverage machine learning algorithms and real-time data analysis to identify potentially fraudulent transactions while minimizing false positives, ensuring enhanced security and a seamless user experience.  
+  
+**Project Scope**:   
+- Analyze historical e-commerce transaction data to identify fraud patterns.  
+- Build a predictive model to classify transactions as fraudulent or legitimate.  
+- Ensure the solution integrates seamlessly into existing workflows and scales with transaction volume.  
+- Incorporate mechanisms for continuous learning and adaptation to new fraud tactics.  
+  
+**Expected Outcomes**:  
+- A fully functional fraud detection tool capable of identifying fraudulent transactions with an accuracy of over 95%.  
+- Reduction in chargebacks to less than 50 bps.  
+- Reduction in fraud rate to less than 50 bps.  
+- Reduction in false positive rate.  
+- Enhanced customer trust through minimized disruptions caused by false positives.  
+- Take into consideration the following fraud data points:  
+- Average time to detect fraud  
+- Decline rate  
+- Repeat offender rate  
+- Transaction velocity  
+- Conversion rate impact  
+  
+**Key Deliverables**:  
+- A trained and validated fraud detection model.  
+- API-based tool for integration with e-commerce platforms.  
+- Detailed project documentation, including data insights, model architecture, and implementation guidelines.  
+- Monitoring dashboard for real-time fraud analytics.  
+
+
 ## CGI 
 **Will require signing an NDA/IP release**
 
