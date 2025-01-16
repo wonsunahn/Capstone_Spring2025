@@ -131,28 +131,8 @@ Team Size: 4-6 students
 
 POC: Anastasia Mokhon (anastasia.mokhon@cgi.com)
 
-### GenAI-powered Customer 360° View
-In modern businesses, understanding the customer holistically is critical for delivering personalized experiences, improving customer satisfaction, and driving business growth. However, customer data is often fragmented across multiple systems and departments, making it challenging to obtain a unified view. This project aims to develop a GenAI-powered solution that consolidates customer data from various sources to create a comprehensive Customer 360° View & insights/recommendations.
-
-The solution will leverage Large Language Models (LLMs) to analyze and synthesize customer data, providing insights into customer behavior, preferences, sentiment, and more. The customer data will be stored in a vector database, allowing for efficient retrieval and similarity search. Based on user input, relevant data will be dynamically populated to provide a real-time, personalized customer view. The goal is to enable businesses to have a complete understanding of each customer, allowing for more targeted marketing, better customer service, and informed decision-making
-
-Identified Personas:
-- Marketing Manager: Uses Customer 360° View to segment customers and create personalized marketing campaigns.
-- Customer Support Agent: Accesses detailed customer history and sentiment analysis to provide tailored support.
-- Sales Representative: Utilizes insights from the Customer 360° View to identify upsell and cross-sell opportunities.
-- Data Analyst: Analyzes aggregated customer data to identify trends and provide strategic recommendations.
-Outcome for Students: 
-- Learning about the integration of GenAI with customer data systems.
-- Understanding the process of creating a unified data model from disparate sources.
-- Gaining experience in developing AI models.
-- Utilizing AI-driven analytics to extract actionable insights from customer data.
-
-Technologies: 
-- Python 
-- GenAI concepts - LLM, RAG, Embeddings 
-- FAISS – Vector database 
-- VS Code/Jupiter Notebook 
-- Angular
+### CGI ML Pipeline
+This Capstone focuses on developing a sub-second inference pipeline with AI models at its core. It provides hands on experience in using Python for model development, integrating AI/ML models with APIs, and implemented a framework for distributed processing. 
 
 Team Size: 4-5 students
 
