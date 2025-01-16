@@ -22,12 +22,16 @@ Integrating Generative AI into the Software Development Lifecycle (SDLC) enhance
 
 **Major Services**: AWS, Jira/Confluence, GitHub/Bitbucket, Graph Database, Terraform, AI (hosted)
 
+Team Size: 3-4 students
+
 ### Application Monitoring Dashboard
 Create a standard application monitoring dashboard solution that can be created automatically to visualize, monitor, and alert key functional for an eCommerce system. Leverage cloud technologies, 3rd party integration, and infrastructure-as-code tooling to make a flexible, customizable, re-useable monitoring and alerting framework. 
 
 **Impact**: 25%+ increase in monitoring efficiency; automated default dashboard
 
 **Major Services**: AWS, Terraform, Datadog, BGC site
+
+Team Size: 3-4 students
 
 ### Anomaly Detection System for Gift Card Package Weights
 **Objective**: Develop a system to detect anomalies and errors in package weights by comparing actual scale-reported weights with projected weights based on expected package contents. The goal is to enhance quality control and identify discrepancies in real time during production.
@@ -56,6 +60,7 @@ Wolfe Companies operates a gift card printing facility where cards are packaged 
 
 Understanding these variables will be critical to building a system that accounts for different carrier types, packaging materials, and bulk shipment methods to ensure accurate anomaly detection.
 
+Team Size: 3-4 students
 
 
 ### eCommerce Machine-Learning Fraud Tool  
@@ -90,6 +95,7 @@ Developing a Machine Learning-Based Fraud Detection Tool for E-Commerce Transact
 - Detailed project documentation, including data insights, model architecture, and implementation guidelines.  
 - Monitoring dashboard for real-time fraud analytics.  
 
+Team Size: 3-4 students
 
 ## CGI 
 **Will require signing an NDA/IP release**
