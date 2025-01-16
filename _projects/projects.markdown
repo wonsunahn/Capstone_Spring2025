@@ -392,22 +392,6 @@ In this project, the team will understand the existing code and continue to deve
 
 Students interested in this project should have completed at least a machine learning or data science course.  If you have any questions about this project, please contact Nathan Ong at nro5@pitt.edu or Daniel Mosse at mosse@pitt.edu. Nathan is a post-doc at Pitt’s LRDC+UCTL, Daniel is a faculty member in CS. We will have weekly meetings for discussing results of past week, and setting goals for the following week; we will take turns taking notes (or use JIRA and github) to keep track of project progress.
 
-Intro: StudentPaths and Concept Progression Maps are data analytics tools designed to assist undergraduate academic advisors by finding trends in historical student data, matching current students to those historical trends, and exposing finer granularity detail for grades.  These tasks allow advisors to talk more in-depth with their students about their undergraduate careers and course content.
-
-Currently, an MVP (minimum viable product, not most valuable player) for both tools have been developed and they're ready for deployment; students will:
-
-1. Understand the previously written code, using existing documentation, and fill in any knowledge gaps in that documentation (ie, follow documentation, but write down what's missing/misleading)
-2. Fix any bugs that are still outstanding to be able to run these tools on your own machine (ie, deploy local copy)
-3. Deploy onto the cloud: must know or want to learn how to work with Microsoft Azure, and  Single Sign-On at Pitt (ie, deploy services on Azure and enable PittID authentication)
-4. Work with PittIT to attach a data warehouse containing anonymized transcript information to use in StudentPaths (ie, hook up to a database)
-5. Integrate the system with Canvas, by being able to extract course, assignment and grade data to use in the Concept Progression Maps system (ie, learn the Canvas API to get data for CPMs)
-6. Test both systems to ensure they are working as intended
-7. Create documentation to help future developers operate and maintain the code.
-8. Time Permitting: Create documentation to help non-experts (i.e., advisors) run the system on their machine(s)
-
-Students will be expected to work as a team to fulfill these requirements and meet with the clients on a weekly basis to ensure adequate progress is being made.
-
-If you have any questions, please contact Nathan Ong (nro5@pitt.edu) or Daniel Mosse (mosse@pitt.edu).  Nathan is a post-doc at Pitt's LRDC+UCTL, Daniel is a faculty member in CS.  We will have weekly meetings.
 
 Team Size: 2-3 students
 
@@ -470,6 +454,23 @@ Technology used:
 Team Size: 2 students 
 
 POC: Daniel Mosse (mosse@pitt.edu) and Ousmane Dieng (oud5@pitt.edu)
+
+## Sustainability in buildings: using cheap InfraRed cameras to detect leaks in windows  
+
+A large portion of the built environment in US are not properly sealed and are prone to thermal leaks/anomalies. This often affects the low-income households, which spend a large portion of their income on heating and cooling.  These inefficiencies might be due to factors like improperly sealed windows and doors, missing insulation, inefficient HVAC equipment, etc. 
+
+Small air leaks are invisible to the naked eye and an RGB image cannot give us enough information to detect them. But thermal images (temperature map of the area of interest) obtained with InfraRed cameras can enable us to detect the anomalies on and around windows (and doors). We are aiming to detect leaks in windows (and doors, time permitting) so that we can, in the future, provide repair/upgrade solutions/options to the homeowner or occupant. 
+
+By the end of the semester, the students are expected to: 
+- Contribute infrared/thermal and RGB/regular images towards a dataset of thermal images of windows 
+- Annotate the images with leaks to create a dataset with ground truth. Annotations may involve categories and bounding boxes for leaks. 
+- Evaluate different Machine Learning / Computer Vision models to determine the most precise one for this task. 
+- Contribute to a software pipeline that aims to make it easier to load new data (RGB/IR images of windows) and executes algorithm on the dataset to classify the windows as leaky or not. 
+
+ 
+Team Size: 2 students 
+
+POC: Daniel Mosse (mosse@pitt.edu) Nils Murrugarra Llerena <nem177@pitt.edu> and Dilip Teja Polamarasetty <DIP67@pitt.edu> 
 
 ## Aakash Gautam
 ### Digital Literacy for Returning Community Members
