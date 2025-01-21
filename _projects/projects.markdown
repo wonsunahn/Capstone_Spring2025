@@ -560,19 +560,6 @@ Team Size: 3-5 students
 POC: Aakash Gautam (AAKASH@pitt.edu)
 
 ## Luís Oliveira
-### Web-Configurable Bot for Discord
-This project involves the development of a custom Discord bot and its accompanying management website, aimed at enhancing course communications. The bot will be designed for configurable commands and integration with educational platforms such as Canvas, enabling tailored interactions for students. Key tasks include developing the bot, establishing a web-based interface for configuration and control, and creating specific commands that certain students can invoke based on course integration. This project presents a unique opportunity for students interested in web development, backend programming, and interactive system design, offering a practical application in a real-world educational setting.
- 
-
-This work is on going from the last two semesters, so you will be working on an existing codebase. We will be working on some buggy behaviours, and enhancing its functionality!
-  
-
-Skills Required: Web development experience. No specific languages or frameworks enforced; current work using Python backend and JavaScript frontend. We can change!
-
-Team size: 3–4 students
-
-POC: Luís Oliveira (loliveira@pitt.edu)
-
 
 ### Simulated Virtual GPS
 In this project we're going to simulate a GPS using a flying drone. The scenario I have in mind is a team of cooperating robots that move on the ground. They don't have GPS, but can measure the distance between them using RF techniques (special purpose hardware). In the air, one or more drones have GPS localization, and can measure the distance to the robots on the ground. Having all those measurements, I want to calculate the global coordinates of the robots using the distance between them and the drones; and the GPS localization of the drones. The whole application will be simulated and using a very popular middleware for robotic applications ROS 2.
