@@ -5,81 +5,109 @@ permalink: /project_assignments/
 
 # Project Assignments
 
-<!-- ## CGI Member Management System 
-- Ian Carrillo
-- Aleksandar Smith
-- Miles Hamilton
-- Ron Jiang
-- POC: Anastasia Mokhon
+1. Pitt Street Medicine
+    - Lauren Rose
+    - Nick Cao
+    - Xingcheng Qian
+    - Shanker Pillai
 
-## GenAI-powered Customer 360° View 
-- Sean Lord
-- Ellie Covitz
-- Aryan Gaikwad
-- POC: Praveen Sone
+2. CGI Webapp 
+    - Emily Ewing
+    - Alex Kanji	
+    - Dave Morfaw	
+    - Nicholas Philips	
+    - Sam Wang
 
-## Integrating MuJoCo Physics Simulator with FEAGI for Real-Time Neuromorphic Control of Simulated Robots 
-- Deekshita Behara	
-- Apostoli Karpouzis	
-- Joel Prebish	
-- Christopher Trent-Davis
-- POC: Mohammad Nadji
+3. CGI ML
+    - Andrew Cook	
+    - Elijah Morgan	
+    - Kory Sanchez	
+    - Wabona Dandi
 
-## Developing a simple 3D TurtleBot Simulation with Swappable Maze Scenes and FEAGI Playground Integration in Godot Game Engine 
-- Owen Aherne	
-- Andrew Amilcar	
-- Xiaocheng Ma
-- POC: Mohammad Nadji
+4. Simulated Virtual GPS
+    - Jonathan Miller	
+    - Zixin Ye	
+    - Olivia Neights
 
-## Developing an AI Model for Gesture Recognition Using FEAGI 
-- Shawn Li	
-- Zhexi Wu	
-- Minhal Khan
-- POC: Mohammad Nadji
+5. Network Traffic Control Kernel
+    - Branden Brown	
+    - Joshua Hellauer	
+    - Kendal Kalanish
 
-## Developing a Neuromorphic Model for Imitation Learning Using FEAGI 
-- Zac Chen
-- Mason Gobat
-- POC: Mohammad Nadji
+6. Interactive Web App
+    - Mason Mcginnis	
+    - Gabriel Schmidt	
+    - Sean Shmulevich	
+    - Joseph Secosky
 
-## Machine Learning Based Predictive Modeling of Bacterial Pathogens with Stony Coral Tissue Loss Disease 
-- Aidan McComsey
-- Jack Veith
-- POC: Stephanie Rosales
+7. Sustainability in buildings
+    - Alexandr Yarashevich	
+    - Timothy Dresden
 
-## Pittsburgh Radio Rosary and Consecration Interactive Prayer Service 
-- Drew Puszko	
-- Justin Zheng
-- POC: John DePasquale
+8. AI Policy Assistant
+    - Kelly Katilius	
+    - Jason Woo	
+    - Peter Ford
 
-## StudentPaths and Concept Progression Maps Deployment 
-- Katelyn Donaty
-- Yuxuan Zhou
-- David Simpkins
-- POC: Nathan Ong and Daniel Mosse
+9. Stony coral tissue loss disease modeling
+    - Christian Bolinas	
+    - Sam Brunacini	
+    - Advika Ravishankar
 
-## Digital Literacy for Returning Community Members 
-- Kittrick Danzeisen	
-- Christian Lester	
-- Enyinna Ukattah	
-- Violet Zhou
-- POC: Aakash Gautam
+10. CEC Check-in Kiosk and Database
+    - Jevaria Bashir	
+    - Nicolas Hodgson	
+    - David Obaro	
+    - Samuel Wang
 
-## Web-Configurable Bot for Discord 
-- Alexander Fleming	
-- Rylan Kauffman	
-- Cameron Mickey	
-- Hayden Goughenour-Hughes
-- POC: Luís Oliveira
+11. Digital Tools for Returning Members
+    - Henry Uz	
+    - Daniel Evans	
+    - Mridula Kanakavelan	
+    - Siddarth Surana
 
-## RF-based Ranging for Relative Localization 
-- Owen Capell	
-- Alexander Haurin	
-- David Pultynovich
-- POC: Luís Oliveira
+12. Treefficiency
+    - Ricky Conrad	
+    - Benjamin Radovic	
+    - Hao Wang	
+    - Jiahang Zhang
 
-## TeachTech Toolkit 
-- David Happe	
-- Brandon McCoy
-- POC: Nadine von Frankenberg -->
+13. TeachTech Toolkit
+    - Elijah Cohen	
+    - Ashley Ingenito
 
+14. Understanding Psychological Test
+    - Ojas Mishra	
+    - Sasha Sluis-Cremer
+
+15. Mixed Reality
+    - Aidan Barr Bono	
+    - Aidan Dougherty	
+    - Brandon Hoover
+
+16. FEAGI Webots
+    - Sophia Thompson	
+    - Nathaniel Balkaran	
+    - Shizhen Yang
+
+17. FEAGI Blender
+    - Ashutosh Sangar	
+    - Hasaan Ismaeli	
+    - Nico Zeuss
+
+18. FEAGI Mobile App
+    - Benjamin Gradeck	
+    - Huma Mamnoon	
+    - Cole Metrick
+
+19. FEAGI Config Parser
+    - Benson Beck	
+    - Lukas Finn	
+    - Timothy Marshall	
+    - Brenden Vaccaro
+
+20. Anomaly Detection System
+    - Kenny Han	
+    - Maliki Mwangi	
+    - Tom DeMarco	
+    - Miles Newland
