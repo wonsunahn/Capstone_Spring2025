@@ -29,11 +29,13 @@ The presentations will be given in the order they are listed on the particular d
 
 ## WEEK 5 (Week of 7 FEB)
 
+* Haiwei Hu
 * Everett Cannon
 * Isshin Kurokawa
 
 ## WEEK 6 (Week of 14 FEB)
 
+* Russell Kirkpatrick
 * Tyler Liberatore
 * Rachel Jan
 
@@ -65,6 +67,7 @@ The presentations will be given in the order they are listed on the particular d
 
 * Christopher McEnroe
 * Chris White
+* Robert Gold
 
 ## WEEK 13 (Week of 4 APR)
 
