@@ -12,7 +12,7 @@ title: Project Assignments
 
 2. CGI Webapp 
     - Emily Ewing
-    - Alex Kanji	
+    - Alex Kanj	
     - Dave Morfaw	
     - Nicholas Philips	
     - Sam Wang
@@ -22,7 +22,8 @@ title: Project Assignments
     - Elijah Morgan	
     - Kory Sanchez	
     - Wabona Dandi
-
+    - Nicolas Hodgson	
+`
 4. Simulated Virtual GPS
     - Jonathan Miller	
     - Zixin Ye	
@@ -47,6 +48,7 @@ title: Project Assignments
     - Kelly Katilius	
     - Jason Woo	
     - Peter Ford
+    - Kristel Kouatchou
 
 9. Stony coral tissue loss disease modeling
     - Christian Bolinas	
@@ -55,7 +57,6 @@ title: Project Assignments
 
 10. CEC Check-in Kiosk and Database
     - Jevaria Bashir	
-    - Nicolas Hodgson	
     - David Obaro	
     - Samuel Wang
 
@@ -93,6 +94,7 @@ title: Project Assignments
     - Ashutosh Sangar	
     - Hasaan Ismaeli	
     - Nico Zeuss
+    - Anna Tillie Plazek
 
 18. FEAGI Mobile App
     - Benjamin Gradeck	
