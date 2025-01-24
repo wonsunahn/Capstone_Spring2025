@@ -19,27 +19,33 @@ The presentations will be given in the order they are listed on the particular d
 
 ## WEEK 3 (Week of 24 JAN)
 
-* Student Presentations
+* Claire Hughes
+* David Teklea
   
 ## WEEK 4 (Week of 31 JAN)
 
-* Student Presentations
+* Ben Jupina
+* Andreea Toader
 
 ## WEEK 5 (Week of 7 FEB)
 
-* Student Presentations
+* Everett Cannon
+* Isshin Kurokawa
 
 ## WEEK 6 (Week of 14 FEB)
 
-* Student Presentations
+* Tyler Liberatore
+* Rachel Jan
 
 ## WEEK 7 (Week of 21 FEB)
 
-* Student Presentations
+* Kevin Burkhardt
+* Gabrielle Martin
 
 ## WEEK 8 (Week of 28 FEB)
 
-* Student Presentations
+* Sally Zhang
+* Anna Cavanaugh
 
 ## WEEK 9 (Week of 7 MAR)
 
@@ -47,26 +53,30 @@ The presentations will be given in the order they are listed on the particular d
 
 ## WEEK 10 (Week of 14 MAR)
 
-* Student Presentations
+* Roma R Sekhar
+* Krish Pandya
 
 ## WEEK 11 (Week of 21 MAR)
 
-* Student Presentations
+* Mark Zarroli
+* Praz Nagarajan
 
 ## WEEK 12 (Week of 28 MAR)
 
-* Student Presentations
+* Christopher McEnroe
+* Chris White
 
 ## WEEK 13 (Week of 4 APR)
 
-* Student Presentations
+* James Perreault
 
 ## WEEK 14 (Week of 11 APR)
 
-* Student Presentations
+* Jamie Affour
 
 ## WEEK 15 (Week of 18 APR)
 
-* Student Presentations
+* Alyssa Hoffecker
+* Owen Spencer
 
 **[[[ Best Capstone Speaker awards ]]]**
