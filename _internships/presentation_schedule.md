@@ -69,10 +69,12 @@ The presentations will be given in the order they are listed on the particular d
 ## WEEK 13 (Week of 4 APR)
 
 * James Perreault
+* Mingyu Chen
 
 ## WEEK 14 (Week of 11 APR)
 
 * Jamie Affour
+* Narek Boghosian
 
 ## WEEK 15 (Week of 18 APR)
 
