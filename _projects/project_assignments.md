@@ -1,9 +1,8 @@
 ---
 layout: page
 permalink: /project_assignments/
+title: Project Assignments
 ---
-
-# Project Assignments
 
 1. Pitt Street Medicine
     - Lauren Rose

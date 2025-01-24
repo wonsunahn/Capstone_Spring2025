@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /projects/
+title: Capstone Projects
 ---
 
 # Capstone Project List
