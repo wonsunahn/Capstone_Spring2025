@@ -84,6 +84,7 @@ title: Project Assignments
     - Aidan Barr Bono	
     - Aidan Dougherty	
     - Brandon Hoover
+    - Kiernan Devane
 
 16. FEAGI Webots
     - Sophia Thompson	
