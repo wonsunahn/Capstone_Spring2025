@@ -78,9 +78,11 @@ The presentations will be given in the order they are listed on the particular d
 
 * Jamie Affour
 * Narek Boghosian
+* Yu Liu
 
 ## WEEK 15 (Week of 18 APR)
 
+* Alexa Mckee
 * Alyssa Hoffecker
 * Owen Spencer
 
