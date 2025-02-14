@@ -57,6 +57,7 @@ The presentations will be given in the order they are listed on the particular d
 
 * Roma R Sekhar
 * Krish Pandya
+* Zhiyuan Hu
 
 ## WEEK 11 (Week of 21 MAR)
 
