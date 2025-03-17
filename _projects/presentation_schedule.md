@@ -5,22 +5,32 @@ title: Project Presentation Schedule
 ---
 
 ## Project Presentations
+Below is a list of the team presentations for the Spring 2025 semester. Each team will present their project to the class on the date listed. Team number and name are listed. The order here is the order of the presentations on the day of the class.
 
-November 8:
-- StudentPaths and Concept Progression Maps Deployment 
-- Developing a Neuromorphic Model for Imitation Learning Using FEAGI 
-- Machine Learning Based Predictive Modeling of Bacterial Pathogens with Stony Coral Tissue Loss Disease
-- Developing a simple 3D TurtleBot Simulation with Swappable Maze Scenes and FEAGI Playground Integration in Godot Game Engine 
+Mar 28
+- 18	FEAGI Mobile App
+- 20	Anomaly Detection System
+- 1	Street Medicine
+- 10	CEC Check-in Kiosk and Database
+- 13	TeachTech Toolkit
 
-November 15:
-- CGI Member Management System 
-- TeachTech Toolkit 
-- Web-Configurable Bot for Discord 
-- RF-based Ranging for Relative Localization 
+Apr 4
+- 8	AI Policy Assistant
+- 19	FEAGI Config Parser
+- 15	Mixed Reality
+- 12	Treefficiency
+- 6	Interactive Web App
 
-November 22:
-- Pittsburgh Radio Rosary and Consecration Interactive Prayer Service 
-- Integrating MuJoCo Physics Simulator with FEAGI for Real-Time Neuromorphic Control of Simulated Robots 
-- GenAI-powered Customer 360° View 
-- Developing an AI Model for Gesture Recognition Using FEAGI 
-- Digital Literacy for Returning Community Members 
+Apr 11
+- 2	CGI webapp 
+- 14	Understanding Psychological Test
+- 9	Stony coral tissue loss disease modeling
+- 11	Digital Tools for Returning Members
+- 5	Network Traffic Control Kernel
+
+Apr 18 
+- 7	Sustainability in buildings
+- 3	CGI ML
+- 16	FEAGI Webots
+- 17	FEAGI Blender
+- 4	Simulated Virtual GPS
